@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4878db0f3614d9da0ea2ab09fabae102202a24bcbecbadfff3456b17ed2cf4c1
-size 572
+package com.UnstoppableTrio.MyIchu;
+
+public class OBBData
+{
+public static final String AppType = "";
+
+public static class XAPKFile {
+public final boolean mIsMain;
+public final String mFileVersion;
+public final long mFileSize;
+XAPKFile(boolean isMain, String fileVersion, long fileSize) {
+mIsMain = isMain;
+mFileVersion = fileVersion;
+mFileSize = fileSize;
+}
+}
+
+public static final XAPKFile[] xAPKS = {
+new XAPKFile(
+true, // true signifies a main file
+"1", // the version of the APK that the file was uploaded against
+78230268L // the length of the file in bytes
+)
+};
+};
+
