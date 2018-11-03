@@ -2,5 +2,15 @@
 	"FileVersion": 3,
 	"EngineAssociation": "{0003395A-2309-0D17-000E-004A857645C7}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AndroidProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
