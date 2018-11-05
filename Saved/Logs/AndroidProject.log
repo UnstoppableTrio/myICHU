@@ -1,4 +1,4 @@
-﻿Log file open, 11/04/18 18:20:07
+﻿Log file open, 11/05/18 12:43:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AndroidProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.441622
+LogStats: Stats thread started at 0.452868
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.126s to configure plugins.
+LogStreaming: Display: Took  0.912s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -145,1091 +145,458 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.035s to delete old logs.
+LogStreaming: Display: Took  0.052s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.05-02.20.08:559][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.05-02.20.08:560][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.05-02.20.08:663][  0]LogHAL: Display: Platform has ~ 16 GB [17076789248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.05-02.20.08:663][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.05-02.20.08:663][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.05-02.20.08:663][  0]LogInit: Computer: DESKTOP-L8JRU7I
-[2018.11.05-02.20.08:663][  0]LogInit: User: RichS
-[2018.11.05-02.20.08:663][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.11.05-02.20.08:663][  0]LogInit: High frequency timer resolution =3.222659 MHz
-[2018.11.05-02.20.08:664][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.11.05-02.20.08:664][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.05-02.20.08:664][  0]LogMemory: Process Physical Memory: 102.51 MB used, 102.51 MB peak
-[2018.11.05-02.20.08:664][  0]LogMemory: Process Virtual Memory: 94.18 MB used, 94.18 MB peak
-[2018.11.05-02.20.08:664][  0]LogMemory: Physical Memory: 5678.15 MB used,  10607.54 MB free, 16285.70 MB total
-[2018.11.05-02.20.08:664][  0]LogMemory: Virtual Memory: 4665.53 MB used,  10607.54 MB free, 134217728.00 MB total
-[2018.11.05-02.20.08:701][  0]LogInit: Using OS detected language (en-US).
-[2018.11.05-02.20.08:701][  0]LogInit: Using OS detected locale (en-US).
-[2018.11.05-02.20.08:703][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.05-02.20.09:144][  0]LogStreaming: Display: Took  0.442s to InitEngineTextLocalization.
-[2018.11.05-02.20.09:146][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.05-02.20.09:196][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.05-02.20.09:196][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.05-02.20.09:476][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.05-02.20.09:476][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.05-02.20.09:590][  0]LogD3D11RHI:    0. 'NVIDIA TITAN X (Pascal)' (Feature Level 11_0)
-[2018.11.05-02.20.09:590][  0]LogD3D11RHI:       12147/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.11.05-02.20.09:596][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.05-02.20.09:596][  0]LogD3D11RHI:       0/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.05-02.20.09:596][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.05-02.20.09:622][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.05-02.20.09:622][  0]LogD3D11RHI:     GPU DeviceId: 0x1b00 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.05-02.20.09:622][  0]LogWindows: EnumDisplayDevices:
-[2018.11.05-02.20.09:623][  0]LogWindows:    0. 'NVIDIA TITAN X (Pascal)' (P:1 D:1)
-[2018.11.05-02.20.09:624][  0]LogWindows:    1. 'NVIDIA TITAN X (Pascal)' (P:0 D:1)
-[2018.11.05-02.20.09:625][  0]LogWindows:    2. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
-[2018.11.05-02.20.09:626][  0]LogWindows:    3. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
-[2018.11.05-02.20.09:626][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.05-02.20.09:626][  0]LogD3D11RHI:     Adapter Name: NVIDIA TITAN X (Pascal)
-[2018.11.05-02.20.09:627][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
-[2018.11.05-02.20.09:627][  0]LogD3D11RHI:      Driver Date: 10-10-2018
-[2018.11.05-02.20.09:627][  0]LogRHI: Texture pool is 8502 MB (70% of 12147 MB)
-[2018.11.05-02.20.09:730][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.05-02.20.09:815][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.05-02.20.09:922][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (L:/Unreal_Projects/myICHU/Intermediate/Shaders/WorkingDirectory/12432/).
-[2018.11.05-02.20.09:922][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RichS/AppData/Local/Temp/UnrealShaderWorkingDir/4BAF69FB4E8E56DF0812718B8C123CAA/'.
-[2018.11.05-02.20.10:421][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.05-02.20.10:442][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.05-02.20.10:459][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.05-02.20.10:476][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.05-02.20.10:493][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.05-02.20.10:525][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.05-02.20.10:550][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.05-02.20.10:578][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.05-02.20.10:589][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:774][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.05-02.20.10:776][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.05-02.20.10:855][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.05-02.20.10:855][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.05-02.20.10:883][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.05-02.20.10:883][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.05-02.20.10:898][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.05-02.20.10:919][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.05-02.20.10:933][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.05-02.20.10:957][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.05-02.20.10:967][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.05-02.20.10:967][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.05-02.20.11:072][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.05-02.20.11:072][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.05-02.20.11:072][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.05-02.20.12:366][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.05-02.20.12:518][  0]LogDerivedDataCache: Loaded boot cache 0.15s 71MB C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.05-02.20.12:519][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.05-02.20.12:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file L:/Unreal_Projects/myICHU/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.05-02.20.12:520][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.05-02.20.12:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file L:/Unreal_Projects/myICHU/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.05-02.20.12:520][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.05-02.20.12:534][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.05-02.20.12:546][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RichS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.05-02.20.12:546][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.05-02.20.12:546][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.05-02.20.12:586][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.05-02.20.12:588][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.05-02.20.12:589][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.05-02.20.12:738][  0]LogAssetRegistry: FAssetRegistry took 0.0350 seconds to start up
-[2018.11.05-02.20.13:253][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.05-02.20.13:470][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.05-02.20.13:480][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.05-02.20.13:480][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.05-02.20.13:480][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.05-02.20.13:480][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.05-02.20.13:506][  0]LogNetVersion: AndroidProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1322049604)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_FOL_Rocks_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_C_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_ES_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_MD_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SOW_Cliffside_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SOW_Dirt_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_WATR_Sewer03_DIF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS_AREA_1/M01_PLST_setTex01_DIF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS_AREA_3/rebar_norm.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" is too small (0 bytes, expected at least 32 bytes)
-[2018.11.05-02.20.15:577][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 1.490336 seconds
-[2018.11.05-02.20.15:604][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.05-02.20.15:604][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.11.05-02.20.15:604][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.05-02.20.16:883][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.05-02.20.16:897][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.05-02.20.17:239][  0]SourceControl: Source control is disabled
-[2018.11.05-02.20.18:396][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.05-02.20.18:738][  0]LogOcInput: OculusInput pre-init called
-[2018.11.05-02.20.18:889][  0]LogEngine: Initializing Engine...
-[2018.11.05-02.20.18:890][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.05-02.20.18:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.05-02.20.18:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.05-02.20.18:893][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.05-02.20.18:893][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.05-02.20.19:229][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.05-02.20.19:260][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.05-02.20.19:304][  0]LogInit: XAudio2 using 'LCD TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.05-02.20.19:328][  0]LogInit: FAudioDevice initialized.
-[2018.11.05-02.20.19:329][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.05-02.20.19:609][  0]LogDerivedDataCache: Saved boot cache 0.28s 71MB C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.05-02.20.19:618][  0]LogInit: Texture streaming: Enabled
-[2018.11.05-02.20.19:678][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.05-02.20.19:730][  0]LogInit: Transaction tracking system initialized
-[2018.11.05-02.20.19:807][  0]BlueprintLog: New page: Editor Load
-[2018.11.05-02.20.19:975][  0]LocalizationService: Localization service is disabled
-[2018.11.05-02.20.20:487][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.05-02.20.20:487][  0]LogCook: Display: Mobile HDR setting 0
-[2018.11.05-02.20.20:487][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.05-02.20.20:487][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.05-02.20.20:488][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.05-02.20.20:488][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
-[2018.11.05-02.20.20:488][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.05-02.20.20:710][  0]Cmd: MAP LOAD FILE="L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.05-02.20.20:746][  0]LightingResults: New page: Lighting Build
-[2018.11.05-02.20.20:754][  0]MapCheck: New page: Map Check
-[2018.11.05-02.20.20:754][  0]LightingResults: New page: Lighting Build
-[2018.11.05-02.20.20:794][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.20:824][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/' took 0.41s
-[2018.11.05-02.20.20:825][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ThirdPersonGameModeICHU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.20:843][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/HudCharacterTest.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.20:897][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/TestThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.20:944][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.20:989][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/WallRunLeft.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:010][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:081][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:110][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonClimb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:136][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonJump_End.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:168][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:199][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonWallRunLeft.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:218][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonWallRunRight.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:235][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:326][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_JumpClimb_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:442][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/CameraSwitcherTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:462][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/FrontCameraScreenTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:491][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/fulloptionsMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:515][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/gameframework/ichugameinstance.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:548][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/MAKEUP_20170608224327_save.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:596][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ingameMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:628][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ingameoptionsMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.21:737][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:163][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/CameraSwitcherTexture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:185][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/FrontCameraScreenTexture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:407][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/JinTPCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:436][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:461][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:491][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_WallRunRight.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:520][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:541][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:578][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/TestThirdPersonClimb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:605][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:641][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:663][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:691][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:763][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:796][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Body.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:841][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:890][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:932][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_S.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:966][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Eye.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.22:988][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/EYE_JinF00.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:017][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Hair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:041][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HAIR_JinF_031_col1_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:071][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HAIR_JinF_031_col1_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:105][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Head.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:145][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HEAD_Diffuse_001.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:177][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HEAD_Normal_001.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:206][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_PhysicsAsset.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:388][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:458][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/trailertrucktest.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:517][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/SM_Vehicles/SM_MCH_ClubK_Truck.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:550][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/SM_MCH_ClubK_Truck/T_MCH_ClubK_Truck_DIF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:613][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/SM_MCH_ClubK_Truck/T_MCH_ClubK_Truck_NRM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:649][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/material_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:683][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/mainMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:715][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/titlemyichu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.23:783][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/short_versionRelaxing_River_Sounds_-_Peaceful_Forest_River_-_3_Hours_Long_-_HD_1080p_-_Nature_Video.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:026][  0]LogAIModule: Creating AISystem for world mainmenuMAP
-[2018.11.05-02.20.25:028][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_streaming1_MAP) is flushing async loading
-[2018.11.05-02.20.25:028][  0]LogStreaming: Display: Flushing async loaders.
-[2018.11.05-02.20.25:075][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_streaming1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:099][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_streaming1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:134][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/level1_completeMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:169][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/gimp_ichu_aploogy_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:571][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/gimp_ichu_aploogy.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:668][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP) is flushing async loading
-[2018.11.05-02.20.25:695][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:710][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:724][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_alextest1_MAP) is flushing async loading
-[2018.11.05-02.20.25:758][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alextest1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:811][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush4_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:833][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:867][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branchs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.25:961][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush6_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:032][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:118][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree10_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:175][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:470][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree1_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:531][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:618][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree6_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:663][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree9_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:714][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_03_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:747][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_03.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.26:951][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alextest1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.27:366][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.27:408][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_opgls2_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.27:447][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_COLOR.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.29:751][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP) is flushing async loading
-[2018.11.05-02.20.29:788][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.29:959][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/LevelTeleporter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.29:996][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Material/Telporter2Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:012][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Material/Telporter_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:171][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/StaticMeshes/Cone.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:238][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:311][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:345][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture-png-33.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:389][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Cayon_Rock_opengls2_Mat1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:429][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_DISP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:466][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_NORM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:505][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_ROUGH.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:541][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/big.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:575][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture_Mat_Inst1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:622][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_Big.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:640][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_256_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:661][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_256.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:680][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_long_Mat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:698][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_medium_Mat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:737][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_Opengls2_MatBig_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:753][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_Opengls2_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:798][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_COLOR.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:852][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_DISP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:877][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_NORM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.30:902][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_ROUGH.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.31:242][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/levelcompleteMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.31:307][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.20.31:327][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
-[2018.11.05-02.20.31:327][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset.
-[2018.11.05-02.20.31:327][  0]LoadErrors: Error: /Game/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys : Can't find file for asset. /Engine/EngineSounds/uiSound
-[2018.11.05-02.20.31:328][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
-[2018.11.05-02.20.31:328][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset.
-[2018.11.05-02.20.31:329][  0]LoadErrors: Error: /Game/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys : Can't find file for asset. /Engine/EngineSounds/uiSound
-[2018.11.05-02.20.31:559][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
-[2018.11.05-02.20.31:559][  0]LoadErrors: Failed to load /Engine/EngineSounds/uiSound.uiSound Referenced by y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys
-[2018.11.05-02.20.31:560][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading NULL.
-[2018.11.05-02.20.31:560][  0]LoadErrors: Failed to load /Engine/EngineSounds/uiSound.uiSound Referenced by y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys
-[2018.11.05-02.20.32:061][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.05-02.20.32:111][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.05-02.20.32:361][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 250.015ms to complete.
-[2018.11.05-02.20.32:361][  0]LogFileHelpers: Loading map 'mainmenuMAP' took 11.651
-[2018.11.05-02.20.32:640][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.05-02.20.32:652][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.05-02.20.32:665][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.05-02.20.32:677][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.05-02.20.32:716][  0]LogCollectionManager: Loaded 0 collections in 0.004979 seconds
-[2018.11.05-02.20.32:841][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Saved/Collections/' took 0.01s
-[2018.11.05-02.20.32:841][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/Developers/RichS/Collections/' took 0.02s
-[2018.11.05-02.20.32:841][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/Collections/' took 0.01s
-[2018.11.05-02.20.32:841][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.05-02.20.32:862][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2572 classes and 603 folders.
-[2018.11.05-02.20.32:889][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.05-02.20.33:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.11.05-02.20.33:487][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.11.05-02.20.33:565][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 2 classes and 3 folders.
-[2018.11.05-02.20.34:066][  0]LogSlate: Took 0.000565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.05-02.20.34:072][  0]LogSlate: Took 0.000751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.05-02.20.34:099][  0]LogSlate: Took 0.012558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.05-02.20.34:363][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.11.05-02.20.34:394][  0]LogRenderer: Reallocating scene render targets to support 1128x696 Format 9 NumSamples 1 (Frame:1).
-[2018.11.05-02.20.34:473][  0]LogSlate: Took 0.008795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.05-02.20.34:749][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.11.05-02.20.34:749][  0]LogLoad: (Engine Initialization) Total time: 31.95 seconds
-[2018.11.05-02.20.34:749][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.05-02.20.34:921][  0]LogContentStreaming: Texture pool size now 400 MB
-[2018.11.05-02.20.34:941][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-02.20.36:468][  7]LogAssetRegistry: Asset discovery search completed in 23.7526 seconds
-[2018.11.05-02.20.36:471][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.11.05-02.20.36:471][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
-[2018.11.05-02.20.36:963][ 10]LogSlate: Window 'Message Log' being destroyed
-[2018.11.05-02.20.36:968][ 10]LogSlate: Window 'Message Log' being destroyed
-[2018.11.05-02.21.14:323][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.21.14:481][597]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.05-02.21.14:900][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/M_SOW_Terrain_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.15:055][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/GrandCanyon/Environment/T_SOW_Dirt_01_DIFF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.15:291][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/CommandBase.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.15:530][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/CommandRoom/CommandRoomConcrete.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.16:327][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid1_DSR_Obstacle_Grid_M24SOW_Zone_1_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.16:416][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/material_0.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.16:466][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid2_DSR_Obstacle_Grid_M24SOW_Zone_2_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.16:492][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid3_DSR_Obstacle_Grid_M24SOW_Zone_3_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.16:578][597]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/Tent.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.05-02.21.19:129][597]LogAIModule: Creating AISystem for world template1
-[2018.11.05-02.21.20:729][597]LogAssetEditorManager: Opening Asset editor for World /Game/Dangerous32/Maps/template1.template1
-[2018.11.05-02.21.20:782][597]Cmd: MAP LOAD FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.05-02.21.20:782][597]LightingResults: New page: Lighting Build
-[2018.11.05-02.21.20:782][597]LoadErrors: New page: Loading map: template1.umap
-[2018.11.05-02.21.20:786][597]MapCheck: New page: Map Check
-[2018.11.05-02.21.20:786][597]LightingResults: New page: Lighting Build
-[2018.11.05-02.21.57:028][597]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.05-02.21.57:118][597]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.05-02.21.57:335][597]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 217.408ms to complete.
-[2018.11.05-02.21.57:339][597]LogFileHelpers: Loading map 'template1' took 36.558
-[2018.11.05-02.21.57:438][597]LogFileCache: Retrieving MD5 hashes for directory 'L:/Unreal_Projects/myICHU/Content/' took 82.66s
-[2018.11.05-02.22.40:442][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.22.56:769][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.22.57:688][708]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
-[2018.11.05-02.31.14:448][697]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-02.31.14:895][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-02.31.20:583][697]LogTexture: Display: Building textures: Texture2D_528 (BGRA8, 256X256)
-[2018.11.05-02.31.20:588][697]LogTexture: Display: Building textures: Texture2D_527 (BGRA8, 256X256)
-[2018.11.05-02.31.20:590][697]LogTexture: Display: Building textures: Texture2D_526 (BGRA8, 256X256)
-[2018.11.05-02.31.20:593][697]LogTexture: Display: Building textures: Texture2D_505 (BGRA8, 256X256)
-[2018.11.05-02.31.20:595][697]LogTexture: Display: Building textures: Texture2D_504 (BGRA8, 256X256)
-[2018.11.05-02.31.20:597][697]LogTexture: Display: Building textures: Texture2D_502 (BGRA8, 256X256)
-[2018.11.05-02.31.20:599][697]LogTexture: Display: Building textures: Texture2D_501 (BGRA8, 256X256)
-[2018.11.05-02.31.20:602][697]LogTexture: Display: Building textures: Texture2D_479 (BGRA8, 256X256)
-[2018.11.05-02.31.20:604][697]LogTexture: Display: Building textures: Texture2D_478 (BGRA8, 256X256)
-[2018.11.05-02.31.20:606][697]LogTexture: Display: Building textures: Texture2D_477 (BGRA8, 256X256)
-[2018.11.05-02.31.20:608][697]LogTexture: Display: Building textures: Texture2D_476 (BGRA8, 256X256)
-[2018.11.05-02.31.34:161][697]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto1DAF8BCEB493DEC26203D9D9E48A9A53B.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto1.umap'
-[2018.11.05-02.31.34:277][697]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 19.476
-[2018.11.05-02.31.34:277][697]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 19.476
-[2018.11.05-02.45.32:406][138]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-02.45.33:108][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-02.45.35:744][138]LogTexture: Display: Building textures: Texture2D_569 (BGRA8, 256X256)
-[2018.11.05-02.45.35:749][138]LogTexture: Display: Building textures: Texture2D_558 (BGRA8, 256X256)
-[2018.11.05-02.45.35:751][138]LogTexture: Display: Building textures: Texture2D_547 (BGRA8, 256X256)
-[2018.11.05-02.45.35:753][138]LogTexture: Display: Building textures: Texture2D_314 (BGRA8, 256X256)
-[2018.11.05-02.45.35:756][138]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 256X256)
-[2018.11.05-02.45.35:758][138]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 256X256)
-[2018.11.05-02.45.35:760][138]LogTexture: Display: Building textures: Texture2D_599 (BGRA8, 256X256)
-[2018.11.05-02.45.35:762][138]LogTexture: Display: Building textures: Texture2D_598 (BGRA8, 256X256)
-[2018.11.05-02.45.35:764][138]LogTexture: Display: Building textures: Texture2D_575 (BGRA8, 256X256)
-[2018.11.05-02.45.35:766][138]LogTexture: Display: Building textures: Texture2D_574 (BGRA8, 256X256)
-[2018.11.05-02.45.35:768][138]LogTexture: Display: Building textures: Texture2D_553 (BGRA8, 256X256)
-[2018.11.05-02.45.35:770][138]LogTexture: Display: Building textures: Texture2D_552 (BGRA8, 256X256)
-[2018.11.05-02.45.35:772][138]LogTexture: Display: Building textures: Texture2D_551 (BGRA8, 256X256)
-[2018.11.05-02.45.35:775][138]LogTexture: Display: Building textures: Texture2D_550 (BGRA8, 256X256)
-[2018.11.05-02.45.35:777][138]LogTexture: Display: Building textures: Texture2D_530 (BGRA8, 256X256)
-[2018.11.05-02.45.35:779][138]LogTexture: Display: Building textures: Texture2D_529 (BGRA8, 256X256)
-[2018.11.05-02.45.35:780][138]LogTexture: Display: Building textures: Texture2D_528 (BGRA8, 256X256)
-[2018.11.05-02.45.35:783][138]LogTexture: Display: Building textures: Texture2D_527 (BGRA8, 256X256)
-[2018.11.05-02.45.35:785][138]LogTexture: Display: Building textures: Texture2D_526 (BGRA8, 256X256)
-[2018.11.05-02.45.35:787][138]LogTexture: Display: Building textures: Texture2D_506 (BGRA8, 256X256)
-[2018.11.05-02.45.35:790][138]LogTexture: Display: Building textures: Texture2D_505 (BGRA8, 256X256)
-[2018.11.05-02.45.35:792][138]LogTexture: Display: Building textures: Texture2D_504 (BGRA8, 256X256)
-[2018.11.05-02.45.35:793][138]LogTexture: Display: Building textures: Texture2D_502 (BGRA8, 256X256)
-[2018.11.05-02.45.35:796][138]LogTexture: Display: Building textures: Texture2D_501 (BGRA8, 256X256)
-[2018.11.05-02.45.35:798][138]LogTexture: Display: Building textures: Texture2D_481 (BGRA8, 256X256)
-[2018.11.05-02.45.35:800][138]LogTexture: Display: Building textures: Texture2D_479 (BGRA8, 256X256)
-[2018.11.05-02.45.35:802][138]LogTexture: Display: Building textures: Texture2D_478 (BGRA8, 256X256)
-[2018.11.05-02.45.35:805][138]LogTexture: Display: Building textures: Texture2D_477 (BGRA8, 256X256)
-[2018.11.05-02.45.35:807][138]LogTexture: Display: Building textures: Texture2D_476 (BGRA8, 256X256)
-[2018.11.05-02.45.46:035][138]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto2A78E403C4A010F799EE5B7A38C44BBBB.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto2.umap'
-[2018.11.05-02.45.46:094][138]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 13.039
-[2018.11.05-02.45.46:094][138]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.039
-[2018.11.05-02.52.33:386][448]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-02.52.43:366][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.54.10:572][207]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-02.54.31:012][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.55.31:392][336]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-02.55.45:256][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.56.16:753][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-02.56.24:176][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.56.44:753][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.57.31:967][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.57.42:966][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-02.57.47:455][958]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.00.24:796][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.00.37:412][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-03.00.42:960][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-03.01.24:835][623]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.01.25:216][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-03.01.27:928][623]LogTexture: Display: Building textures: Texture2D_281 (BGRA8, 256X256)
-[2018.11.05-03.01.27:935][623]LogTexture: Display: Building textures: Texture2D_269 (BGRA8, 256X256)
-[2018.11.05-03.01.27:937][623]LogTexture: Display: Building textures: Texture2D_258 (BGRA8, 256X256)
-[2018.11.05-03.01.27:939][623]LogTexture: Display: Building textures: Texture2D_247 (BGRA8, 256X256)
-[2018.11.05-03.01.27:941][623]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 256X256)
-[2018.11.05-03.01.27:944][623]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 256X256)
-[2018.11.05-03.01.27:946][623]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 256X256)
-[2018.11.05-03.01.27:948][623]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 256X256)
-[2018.11.05-03.01.27:950][623]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 256X256)
-[2018.11.05-03.01.27:952][623]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 256X256)
-[2018.11.05-03.01.27:954][623]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 256X256)
-[2018.11.05-03.01.27:956][623]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 256X256)
-[2018.11.05-03.01.27:958][623]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 256X256)
-[2018.11.05-03.01.27:960][623]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 256X256)
-[2018.11.05-03.01.27:962][623]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 256X256)
-[2018.11.05-03.01.27:965][623]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 256X256)
-[2018.11.05-03.01.27:966][623]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 256X256)
-[2018.11.05-03.01.27:969][623]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 256X256)
-[2018.11.05-03.01.27:971][623]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 256X256)
-[2018.11.05-03.01.27:973][623]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 256X256)
-[2018.11.05-03.01.27:975][623]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 256X256)
-[2018.11.05-03.01.27:978][623]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 256X256)
-[2018.11.05-03.01.27:980][623]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 256X256)
-[2018.11.05-03.01.27:982][623]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 256X256)
-[2018.11.05-03.01.27:983][623]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 256X256)
-[2018.11.05-03.01.27:985][623]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 256X256)
-[2018.11.05-03.01.27:987][623]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 256X256)
-[2018.11.05-03.01.27:990][623]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 256X256)
-[2018.11.05-03.01.27:992][623]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 256X256)
-[2018.11.05-03.01.27:994][623]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 256X256)
-[2018.11.05-03.01.27:996][623]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
-[2018.11.05-03.01.27:998][623]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
-[2018.11.05-03.01.28:000][623]LogTexture: Display: Building textures: Texture2D_601 (BGRA8, 256X256)
-[2018.11.05-03.01.28:001][623]LogTexture: Display: Building textures: Texture2D_600 (BGRA8, 256X256)
-[2018.11.05-03.01.28:004][623]LogTexture: Display: Building textures: Texture2D_599 (BGRA8, 256X256)
-[2018.11.05-03.01.28:006][623]LogTexture: Display: Building textures: Texture2D_598 (BGRA8, 256X256)
-[2018.11.05-03.01.28:008][623]LogTexture: Display: Building textures: Texture2D_597 (BGRA8, 256X256)
-[2018.11.05-03.01.28:010][623]LogTexture: Display: Building textures: Texture2D_596 (BGRA8, 256X256)
-[2018.11.05-03.01.28:012][623]LogTexture: Display: Building textures: Texture2D_595 (BGRA8, 256X256)
-[2018.11.05-03.01.28:014][623]LogTexture: Display: Building textures: Texture2D_594 (BGRA8, 256X256)
-[2018.11.05-03.01.28:016][623]LogTexture: Display: Building textures: Texture2D_593 (BGRA8, 256X256)
-[2018.11.05-03.01.28:018][623]LogTexture: Display: Building textures: Texture2D_592 (BGRA8, 256X256)
-[2018.11.05-03.01.28:020][623]LogTexture: Display: Building textures: Texture2D_583 (BGRA8, 256X256)
-[2018.11.05-03.01.28:023][623]LogTexture: Display: Building textures: Texture2D_582 (BGRA8, 256X256)
-[2018.11.05-03.01.28:025][623]LogTexture: Display: Building textures: Texture2D_581 (BGRA8, 256X256)
-[2018.11.05-03.01.28:027][623]LogTexture: Display: Building textures: Texture2D_579 (BGRA8, 256X256)
-[2018.11.05-03.01.28:029][623]LogTexture: Display: Building textures: Texture2D_578 (BGRA8, 256X256)
-[2018.11.05-03.01.28:031][623]LogTexture: Display: Building textures: Texture2D_577 (BGRA8, 256X256)
-[2018.11.05-03.01.28:033][623]LogTexture: Display: Building textures: Texture2D_576 (BGRA8, 256X256)
-[2018.11.05-03.01.28:040][623]LogTexture: Display: Building textures: Texture2D_575 (BGRA8, 256X256)
-[2018.11.05-03.01.28:041][623]LogTexture: Display: Building textures: Texture2D_574 (BGRA8, 256X256)
-[2018.11.05-03.01.28:043][623]LogTexture: Display: Building textures: Texture2D_573 (BGRA8, 256X256)
-[2018.11.05-03.01.28:045][623]LogTexture: Display: Building textures: Texture2D_572 (BGRA8, 256X256)
-[2018.11.05-03.01.28:047][623]LogTexture: Display: Building textures: Texture2D_571 (BGRA8, 256X256)
-[2018.11.05-03.01.28:049][623]LogTexture: Display: Building textures: Texture2D_570 (BGRA8, 256X256)
-[2018.11.05-03.01.28:051][623]LogTexture: Display: Building textures: Texture2D_568 (BGRA8, 256X256)
-[2018.11.05-03.01.28:053][623]LogTexture: Display: Building textures: Texture2D_567 (BGRA8, 256X256)
-[2018.11.05-03.01.28:055][623]LogTexture: Display: Building textures: Texture2D_559 (BGRA8, 256X256)
-[2018.11.05-03.01.28:057][623]LogTexture: Display: Building textures: Texture2D_557 (BGRA8, 256X256)
-[2018.11.05-03.01.28:059][623]LogTexture: Display: Building textures: Texture2D_556 (BGRA8, 256X256)
-[2018.11.05-03.01.28:061][623]LogTexture: Display: Building textures: Texture2D_555 (BGRA8, 256X256)
-[2018.11.05-03.01.28:063][623]LogTexture: Display: Building textures: Texture2D_554 (BGRA8, 256X256)
-[2018.11.05-03.01.28:065][623]LogTexture: Display: Building textures: Texture2D_553 (BGRA8, 256X256)
-[2018.11.05-03.01.28:067][623]LogTexture: Display: Building textures: Texture2D_552 (BGRA8, 256X256)
-[2018.11.05-03.01.28:068][623]LogTexture: Display: Building textures: Texture2D_551 (BGRA8, 256X256)
-[2018.11.05-03.01.28:070][623]LogTexture: Display: Building textures: Texture2D_550 (BGRA8, 256X256)
-[2018.11.05-03.01.28:072][623]LogTexture: Display: Building textures: Texture2D_549 (BGRA8, 256X256)
-[2018.11.05-03.01.28:075][623]LogTexture: Display: Building textures: Texture2D_548 (BGRA8, 256X256)
-[2018.11.05-03.01.28:077][623]LogTexture: Display: Building textures: Texture2D_546 (BGRA8, 256X256)
-[2018.11.05-03.01.28:078][623]LogTexture: Display: Building textures: Texture2D_545 (BGRA8, 256X256)
-[2018.11.05-03.01.28:080][623]LogTexture: Display: Building textures: Texture2D_544 (BGRA8, 256X256)
-[2018.11.05-03.01.28:082][623]LogTexture: Display: Building textures: Texture2D_543 (BGRA8, 256X256)
-[2018.11.05-03.01.28:084][623]LogTexture: Display: Building textures: Texture2D_534 (BGRA8, 256X256)
-[2018.11.05-03.01.28:086][623]LogTexture: Display: Building textures: Texture2D_533 (BGRA8, 256X256)
-[2018.11.05-03.01.28:088][623]LogTexture: Display: Building textures: Texture2D_532 (BGRA8, 256X256)
-[2018.11.05-03.01.28:090][623]LogTexture: Display: Building textures: Texture2D_531 (BGRA8, 256X256)
-[2018.11.05-03.01.28:091][623]LogTexture: Display: Building textures: Texture2D_530 (BGRA8, 256X256)
-[2018.11.05-03.01.28:093][623]LogTexture: Display: Building textures: Texture2D_529 (BGRA8, 256X256)
-[2018.11.05-03.01.28:095][623]LogTexture: Display: Building textures: Texture2D_528 (BGRA8, 256X256)
-[2018.11.05-03.01.28:096][623]LogTexture: Display: Building textures: Texture2D_527 (BGRA8, 256X256)
-[2018.11.05-03.01.28:098][623]LogTexture: Display: Building textures: Texture2D_526 (BGRA8, 256X256)
-[2018.11.05-03.01.28:101][623]LogTexture: Display: Building textures: Texture2D_524 (BGRA8, 256X256)
-[2018.11.05-03.01.28:103][623]LogTexture: Display: Building textures: Texture2D_523 (BGRA8, 256X256)
-[2018.11.05-03.01.28:105][623]LogTexture: Display: Building textures: Texture2D_522 (BGRA8, 256X256)
-[2018.11.05-03.01.28:106][623]LogTexture: Display: Building textures: Texture2D_521 (BGRA8, 256X256)
-[2018.11.05-03.01.28:109][623]LogTexture: Display: Building textures: Texture2D_520 (BGRA8, 256X256)
-[2018.11.05-03.01.28:110][623]LogTexture: Display: Building textures: Texture2D_519 (BGRA8, 256X256)
-[2018.11.05-03.01.28:112][623]LogTexture: Display: Building textures: Texture2D_508 (BGRA8, 256X256)
-[2018.11.05-03.01.28:114][623]LogTexture: Display: Building textures: Texture2D_507 (BGRA8, 256X256)
-[2018.11.05-03.01.28:116][623]LogTexture: Display: Building textures: Texture2D_506 (BGRA8, 256X256)
-[2018.11.05-03.01.28:118][623]LogTexture: Display: Building textures: Texture2D_505 (BGRA8, 256X256)
-[2018.11.05-03.01.28:120][623]LogTexture: Display: Building textures: Texture2D_504 (BGRA8, 256X256)
-[2018.11.05-03.01.28:122][623]LogTexture: Display: Building textures: Texture2D_502 (BGRA8, 256X256)
-[2018.11.05-03.01.28:124][623]LogTexture: Display: Building textures: Texture2D_501 (BGRA8, 256X256)
-[2018.11.05-03.01.28:125][623]LogTexture: Display: Building textures: Texture2D_500 (BGRA8, 256X256)
-[2018.11.05-03.01.28:127][623]LogTexture: Display: Building textures: Texture2D_499 (BGRA8, 256X256)
-[2018.11.05-03.01.28:129][623]LogTexture: Display: Building textures: Texture2D_498 (BGRA8, 256X256)
-[2018.11.05-03.01.28:133][623]LogTexture: Display: Building textures: Texture2D_497 (BGRA8, 256X256)
-[2018.11.05-03.01.28:135][623]LogTexture: Display: Building textures: Texture2D_496 (BGRA8, 256X256)
-[2018.11.05-03.01.28:136][623]LogTexture: Display: Building textures: Texture2D_495 (BGRA8, 256X256)
-[2018.11.05-03.01.28:138][623]LogTexture: Display: Building textures: Texture2D_483 (BGRA8, 256X256)
-[2018.11.05-03.01.28:139][623]LogTexture: Display: Building textures: Texture2D_482 (BGRA8, 256X256)
-[2018.11.05-03.01.28:141][623]LogTexture: Display: Building textures: Texture2D_481 (BGRA8, 256X256)
-[2018.11.05-03.01.28:143][623]LogTexture: Display: Building textures: Texture2D_479 (BGRA8, 256X256)
-[2018.11.05-03.01.28:145][623]LogTexture: Display: Building textures: Texture2D_478 (BGRA8, 256X256)
-[2018.11.05-03.01.28:147][623]LogTexture: Display: Building textures: Texture2D_477 (BGRA8, 256X256)
-[2018.11.05-03.01.28:148][623]LogTexture: Display: Building textures: Texture2D_476 (BGRA8, 256X256)
-[2018.11.05-03.01.28:150][623]LogTexture: Display: Building textures: Texture2D_475 (BGRA8, 256X256)
-[2018.11.05-03.01.28:151][623]LogTexture: Display: Building textures: Texture2D_474 (BGRA8, 256X256)
-[2018.11.05-03.01.28:153][623]LogTexture: Display: Building textures: Texture2D_473 (BGRA8, 256X256)
-[2018.11.05-03.01.28:155][623]LogTexture: Display: Building textures: Texture2D_472 (BGRA8, 256X256)
-[2018.11.05-03.01.28:157][623]LogTexture: Display: Building textures: Texture2D_471 (BGRA8, 256X256)
-[2018.11.05-03.01.28:159][623]LogTexture: Display: Building textures: Texture2D_470 (BGRA8, 256X256)
-[2018.11.05-03.01.39:034][623]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto31F2B6541452860F7168D128B6BC17476.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto3.umap'
-[2018.11.05-03.01.39:251][623]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 14.090
-[2018.11.05-03.01.39:251][623]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 14.090
-[2018.11.05-03.01.45:560][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-03.02.49:440][100]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.02.53:229][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-03.03.43:392][532]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.04.28:383][210]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.04.31:522][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-03.06.23:593][116]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.07.37:923][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.07.53:237][545]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.07.55:681][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-03.08.28:022][583]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
-[2018.11.05-03.08.28:239][583]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.19.43:594][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.19.44:125][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-03.19.46:764][ 79]LogTexture: Display: Building textures: Texture2D_314 (BGRA8, 256X256)
-[2018.11.05-03.19.46:772][ 79]LogTexture: Display: Building textures: Texture2D_303 (BGRA8, 256X256)
-[2018.11.05-03.19.46:773][ 79]LogTexture: Display: Building textures: Texture2D_292 (BGRA8, 256X256)
-[2018.11.05-03.19.46:775][ 79]LogTexture: Display: Building textures: Texture2D_281 (BGRA8, 256X256)
-[2018.11.05-03.19.46:777][ 79]LogTexture: Display: Building textures: Texture2D_269 (BGRA8, 256X256)
-[2018.11.05-03.19.46:779][ 79]LogTexture: Display: Building textures: Texture2D_258 (BGRA8, 256X256)
-[2018.11.05-03.19.46:782][ 79]LogTexture: Display: Building textures: Texture2D_247 (BGRA8, 256X256)
-[2018.11.05-03.19.46:783][ 79]LogTexture: Display: Building textures: Texture2D_115 (BGRA8, 256X256)
-[2018.11.05-03.19.46:785][ 79]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 256X256)
-[2018.11.05-03.19.46:787][ 79]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 256X256)
-[2018.11.05-03.19.46:789][ 79]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 256X256)
-[2018.11.05-03.19.46:790][ 79]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 256X256)
-[2018.11.05-03.19.46:792][ 79]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 256X256)
-[2018.11.05-03.19.46:795][ 79]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 256X256)
-[2018.11.05-03.19.46:797][ 79]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 256X256)
-[2018.11.05-03.19.46:798][ 79]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 256X256)
-[2018.11.05-03.19.46:800][ 79]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 256X256)
-[2018.11.05-03.19.46:802][ 79]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 256X256)
-[2018.11.05-03.19.46:804][ 79]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 256X256)
-[2018.11.05-03.19.46:807][ 79]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 256X256)
-[2018.11.05-03.19.46:809][ 79]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 256X256)
-[2018.11.05-03.19.46:811][ 79]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 256X256)
-[2018.11.05-03.19.46:813][ 79]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 256X256)
-[2018.11.05-03.19.46:815][ 79]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 256X256)
-[2018.11.05-03.19.46:816][ 79]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 256X256)
-[2018.11.05-03.19.46:819][ 79]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 256X256)
-[2018.11.05-03.19.46:820][ 79]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 256X256)
-[2018.11.05-03.19.46:823][ 79]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 256X256)
-[2018.11.05-03.19.46:825][ 79]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 256X256)
-[2018.11.05-03.19.46:827][ 79]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 256X256)
-[2018.11.05-03.19.46:829][ 79]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 256X256)
-[2018.11.05-03.19.46:831][ 79]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 256X256)
-[2018.11.05-03.19.46:833][ 79]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 256X256)
-[2018.11.05-03.19.46:835][ 79]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 256X256)
-[2018.11.05-03.19.46:837][ 79]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 256X256)
-[2018.11.05-03.19.46:839][ 79]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
-[2018.11.05-03.19.46:841][ 79]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
-[2018.11.05-03.19.46:843][ 79]LogTexture: Display: Building textures: Texture2D_601 (BGRA8, 256X256)
-[2018.11.05-03.19.46:845][ 79]LogTexture: Display: Building textures: Texture2D_600 (BGRA8, 256X256)
-[2018.11.05-03.19.46:847][ 79]LogTexture: Display: Building textures: Texture2D_599 (BGRA8, 256X256)
-[2018.11.05-03.19.46:849][ 79]LogTexture: Display: Building textures: Texture2D_598 (BGRA8, 256X256)
-[2018.11.05-03.19.46:851][ 79]LogTexture: Display: Building textures: Texture2D_597 (BGRA8, 256X256)
-[2018.11.05-03.19.46:852][ 79]LogTexture: Display: Building textures: Texture2D_596 (BGRA8, 256X256)
-[2018.11.05-03.19.46:855][ 79]LogTexture: Display: Building textures: Texture2D_595 (BGRA8, 256X256)
-[2018.11.05-03.19.46:859][ 79]LogTexture: Display: Building textures: Texture2D_594 (BGRA8, 256X256)
-[2018.11.05-03.19.46:862][ 79]LogTexture: Display: Building textures: Texture2D_593 (BGRA8, 256X256)
-[2018.11.05-03.19.46:865][ 79]LogTexture: Display: Building textures: Texture2D_592 (BGRA8, 256X256)
-[2018.11.05-03.19.46:868][ 79]LogTexture: Display: Building textures: Texture2D_579 (BGRA8, 256X256)
-[2018.11.05-03.19.46:873][ 79]LogTexture: Display: Building textures: Texture2D_578 (BGRA8, 256X256)
-[2018.11.05-03.19.46:875][ 79]LogTexture: Display: Building textures: Texture2D_577 (BGRA8, 256X256)
-[2018.11.05-03.19.46:878][ 79]LogTexture: Display: Building textures: Texture2D_576 (BGRA8, 256X256)
-[2018.11.05-03.19.46:880][ 79]LogTexture: Display: Building textures: Texture2D_575 (BGRA8, 256X256)
-[2018.11.05-03.19.46:882][ 79]LogTexture: Display: Building textures: Texture2D_574 (BGRA8, 256X256)
-[2018.11.05-03.19.46:884][ 79]LogTexture: Display: Building textures: Texture2D_573 (BGRA8, 256X256)
-[2018.11.05-03.19.46:886][ 79]LogTexture: Display: Building textures: Texture2D_572 (BGRA8, 256X256)
-[2018.11.05-03.19.46:888][ 79]LogTexture: Display: Building textures: Texture2D_571 (BGRA8, 256X256)
-[2018.11.05-03.19.46:890][ 79]LogTexture: Display: Building textures: Texture2D_570 (BGRA8, 256X256)
-[2018.11.05-03.19.46:892][ 79]LogTexture: Display: Building textures: Texture2D_568 (BGRA8, 256X256)
-[2018.11.05-03.19.46:893][ 79]LogTexture: Display: Building textures: Texture2D_567 (BGRA8, 256X256)
-[2018.11.05-03.19.46:896][ 79]LogTexture: Display: Building textures: Texture2D_551 (BGRA8, 256X256)
-[2018.11.05-03.19.46:897][ 79]LogTexture: Display: Building textures: Texture2D_550 (BGRA8, 256X256)
-[2018.11.05-03.19.46:899][ 79]LogTexture: Display: Building textures: Texture2D_549 (BGRA8, 256X256)
-[2018.11.05-03.19.46:901][ 79]LogTexture: Display: Building textures: Texture2D_548 (BGRA8, 256X256)
-[2018.11.05-03.19.46:903][ 79]LogTexture: Display: Building textures: Texture2D_546 (BGRA8, 256X256)
-[2018.11.05-03.19.46:905][ 79]LogTexture: Display: Building textures: Texture2D_545 (BGRA8, 256X256)
-[2018.11.05-03.19.46:907][ 79]LogTexture: Display: Building textures: Texture2D_544 (BGRA8, 256X256)
-[2018.11.05-03.19.46:909][ 79]LogTexture: Display: Building textures: Texture2D_543 (BGRA8, 256X256)
-[2018.11.05-03.19.46:912][ 79]LogTexture: Display: Building textures: Texture2D_527 (BGRA8, 256X256)
-[2018.11.05-03.19.46:914][ 79]LogTexture: Display: Building textures: Texture2D_526 (BGRA8, 256X256)
-[2018.11.05-03.19.46:916][ 79]LogTexture: Display: Building textures: Texture2D_524 (BGRA8, 256X256)
-[2018.11.05-03.19.46:918][ 79]LogTexture: Display: Building textures: Texture2D_523 (BGRA8, 256X256)
-[2018.11.05-03.19.46:920][ 79]LogTexture: Display: Building textures: Texture2D_522 (BGRA8, 256X256)
-[2018.11.05-03.19.46:922][ 79]LogTexture: Display: Building textures: Texture2D_521 (BGRA8, 256X256)
-[2018.11.05-03.19.46:924][ 79]LogTexture: Display: Building textures: Texture2D_520 (BGRA8, 256X256)
-[2018.11.05-03.19.46:926][ 79]LogTexture: Display: Building textures: Texture2D_519 (BGRA8, 256X256)
-[2018.11.05-03.19.46:928][ 79]LogTexture: Display: Building textures: Texture2D_504 (BGRA8, 256X256)
-[2018.11.05-03.19.46:930][ 79]LogTexture: Display: Building textures: Texture2D_502 (BGRA8, 256X256)
-[2018.11.05-03.19.46:932][ 79]LogTexture: Display: Building textures: Texture2D_501 (BGRA8, 256X256)
-[2018.11.05-03.19.46:934][ 79]LogTexture: Display: Building textures: Texture2D_500 (BGRA8, 256X256)
-[2018.11.05-03.19.46:936][ 79]LogTexture: Display: Building textures: Texture2D_499 (BGRA8, 256X256)
-[2018.11.05-03.19.46:938][ 79]LogTexture: Display: Building textures: Texture2D_498 (BGRA8, 256X256)
-[2018.11.05-03.19.46:940][ 79]LogTexture: Display: Building textures: Texture2D_497 (BGRA8, 256X256)
-[2018.11.05-03.19.46:943][ 79]LogTexture: Display: Building textures: Texture2D_496 (BGRA8, 256X256)
-[2018.11.05-03.19.46:945][ 79]LogTexture: Display: Building textures: Texture2D_495 (BGRA8, 256X256)
-[2018.11.05-03.19.46:947][ 79]LogTexture: Display: Building textures: Texture2D_478 (BGRA8, 256X256)
-[2018.11.05-03.19.46:949][ 79]LogTexture: Display: Building textures: Texture2D_477 (BGRA8, 256X256)
-[2018.11.05-03.19.46:951][ 79]LogTexture: Display: Building textures: Texture2D_476 (BGRA8, 256X256)
-[2018.11.05-03.19.46:953][ 79]LogTexture: Display: Building textures: Texture2D_475 (BGRA8, 256X256)
-[2018.11.05-03.19.46:954][ 79]LogTexture: Display: Building textures: Texture2D_474 (BGRA8, 256X256)
-[2018.11.05-03.19.46:956][ 79]LogTexture: Display: Building textures: Texture2D_473 (BGRA8, 256X256)
-[2018.11.05-03.19.46:958][ 79]LogTexture: Display: Building textures: Texture2D_472 (BGRA8, 256X256)
-[2018.11.05-03.19.46:960][ 79]LogTexture: Display: Building textures: Texture2D_471 (BGRA8, 256X256)
-[2018.11.05-03.19.46:962][ 79]LogTexture: Display: Building textures: Texture2D_470 (BGRA8, 256X256)
-[2018.11.05-03.19.46:965][ 79]LogTexture: Display: Building textures: Texture2D_454 (BGRA8, 256X256)
-[2018.11.05-03.19.46:969][ 79]LogTexture: Display: Building textures: Texture2D_453 (BGRA8, 256X256)
-[2018.11.05-03.19.46:972][ 79]LogTexture: Display: Building textures: Texture2D_452 (BGRA8, 256X256)
-[2018.11.05-03.19.46:974][ 79]LogTexture: Display: Building textures: Texture2D_451 (BGRA8, 256X256)
-[2018.11.05-03.19.46:975][ 79]LogTexture: Display: Building textures: Texture2D_450 (BGRA8, 256X256)
-[2018.11.05-03.19.46:978][ 79]LogTexture: Display: Building textures: Texture2D_449 (BGRA8, 256X256)
-[2018.11.05-03.19.46:980][ 79]LogTexture: Display: Building textures: Texture2D_448 (BGRA8, 256X256)
-[2018.11.05-03.19.46:982][ 79]LogTexture: Display: Building textures: Texture2D_446 (BGRA8, 256X256)
-[2018.11.05-03.19.46:985][ 79]LogTexture: Display: Building textures: Texture2D_445 (BGRA8, 256X256)
-[2018.11.05-03.19.46:987][ 79]LogTexture: Display: Building textures: Texture2D_429 (BGRA8, 256X256)
-[2018.11.05-03.19.46:989][ 79]LogTexture: Display: Building textures: Texture2D_428 (BGRA8, 256X256)
-[2018.11.05-03.19.46:991][ 79]LogTexture: Display: Building textures: Texture2D_427 (BGRA8, 256X256)
-[2018.11.05-03.19.46:993][ 79]LogTexture: Display: Building textures: Texture2D_426 (BGRA8, 256X256)
-[2018.11.05-03.19.46:995][ 79]LogTexture: Display: Building textures: Texture2D_424 (BGRA8, 256X256)
-[2018.11.05-03.19.46:997][ 79]LogTexture: Display: Building textures: Texture2D_423 (BGRA8, 256X256)
-[2018.11.05-03.19.46:999][ 79]LogTexture: Display: Building textures: Texture2D_422 (BGRA8, 256X256)
-[2018.11.05-03.19.47:001][ 79]LogTexture: Display: Building textures: Texture2D_421 (BGRA8, 256X256)
-[2018.11.05-03.19.47:003][ 79]LogTexture: Display: Building textures: Texture2D_404 (BGRA8, 256X256)
-[2018.11.05-03.19.47:006][ 79]LogTexture: Display: Building textures: Texture2D_402 (BGRA8, 256X256)
-[2018.11.05-03.19.47:008][ 79]LogTexture: Display: Building textures: Texture2D_401 (BGRA8, 256X256)
-[2018.11.05-03.19.47:010][ 79]LogTexture: Display: Building textures: Texture2D_400 (BGRA8, 256X256)
-[2018.11.05-03.19.47:012][ 79]LogTexture: Display: Building textures: Texture2D_399 (BGRA8, 256X256)
-[2018.11.05-03.19.47:014][ 79]LogTexture: Display: Building textures: Texture2D_398 (BGRA8, 256X256)
-[2018.11.05-03.19.47:016][ 79]LogTexture: Display: Building textures: Texture2D_397 (BGRA8, 256X256)
-[2018.11.05-03.19.47:018][ 79]LogTexture: Display: Building textures: Texture2D_378 (BGRA8, 256X256)
-[2018.11.05-03.19.47:020][ 79]LogTexture: Display: Building textures: Texture2D_377 (BGRA8, 256X256)
-[2018.11.05-03.19.47:022][ 79]LogTexture: Display: Building textures: Texture2D_376 (BGRA8, 256X256)
-[2018.11.05-03.19.47:024][ 79]LogTexture: Display: Building textures: Texture2D_375 (BGRA8, 256X256)
-[2018.11.05-03.19.47:025][ 79]LogTexture: Display: Building textures: Texture2D_374 (BGRA8, 256X256)
-[2018.11.05-03.19.47:028][ 79]LogTexture: Display: Building textures: Texture2D_373 (BGRA8, 256X256)
-[2018.11.05-03.19.47:030][ 79]LogTexture: Display: Building textures: Texture2D_372 (BGRA8, 256X256)
-[2018.11.05-03.19.47:032][ 79]LogTexture: Display: Building textures: Texture2D_354 (BGRA8, 256X256)
-[2018.11.05-03.19.47:034][ 79]LogTexture: Display: Building textures: Texture2D_353 (BGRA8, 256X256)
-[2018.11.05-03.19.47:036][ 79]LogTexture: Display: Building textures: Texture2D_352 (BGRA8, 256X256)
-[2018.11.05-03.19.47:038][ 79]LogTexture: Display: Building textures: Texture2D_351 (BGRA8, 256X256)
-[2018.11.05-03.19.47:040][ 79]LogTexture: Display: Building textures: Texture2D_350 (BGRA8, 256X256)
-[2018.11.05-03.19.47:042][ 79]LogTexture: Display: Building textures: Texture2D_349 (BGRA8, 256X256)
-[2018.11.05-03.19.47:044][ 79]LogTexture: Display: Building textures: Texture2D_348 (BGRA8, 256X256)
-[2018.11.05-03.19.47:046][ 79]LogTexture: Display: Building textures: Texture2D_331 (BGRA8, 256X256)
-[2018.11.05-03.19.47:048][ 79]LogTexture: Display: Building textures: Texture2D_330 (BGRA8, 256X256)
-[2018.11.05-03.19.47:049][ 79]LogTexture: Display: Building textures: Texture2D_329 (BGRA8, 256X256)
-[2018.11.05-03.19.47:052][ 79]LogTexture: Display: Building textures: Texture2D_327 (BGRA8, 256X256)
-[2018.11.05-03.19.47:054][ 79]LogTexture: Display: Building textures: Texture2D_326 (BGRA8, 256X256)
-[2018.11.05-03.19.47:056][ 79]LogTexture: Display: Building textures: Texture2D_324 (BGRA8, 256X256)
-[2018.11.05-03.19.47:059][ 79]LogTexture: Display: Building textures: Texture2D_323 (BGRA8, 256X256)
-[2018.11.05-03.19.47:062][ 79]LogTexture: Display: Building textures: Texture2D_307 (BGRA8, 256X256)
-[2018.11.05-03.19.47:064][ 79]LogTexture: Display: Building textures: Texture2D_306 (BGRA8, 256X256)
-[2018.11.05-03.19.47:066][ 79]LogTexture: Display: Building textures: Texture2D_305 (BGRA8, 256X256)
-[2018.11.05-03.19.47:068][ 79]LogTexture: Display: Building textures: Texture2D_301 (BGRA8, 256X256)
-[2018.11.05-03.19.47:070][ 79]LogTexture: Display: Building textures: Texture2D_300 (BGRA8, 256X256)
-[2018.11.05-03.19.47:072][ 79]LogTexture: Display: Building textures: Texture2D_299 (BGRA8, 256X256)
-[2018.11.05-03.19.47:074][ 79]LogTexture: Display: Building textures: Texture2D_277 (BGRA8, 256X256)
-[2018.11.05-03.19.47:076][ 79]LogTexture: Display: Building textures: Texture2D_276 (BGRA8, 256X256)
-[2018.11.05-03.19.47:078][ 79]LogTexture: Display: Building textures: Texture2D_275 (BGRA8, 256X256)
-[2018.11.05-03.19.47:080][ 79]LogTexture: Display: Building textures: Texture2D_252 (BGRA8, 256X256)
-[2018.11.05-03.19.47:081][ 79]LogTexture: Display: Building textures: Texture2D_251 (BGRA8, 256X256)
-[2018.11.05-03.19.47:083][ 79]LogTexture: Display: Building textures: Texture2D_250 (BGRA8, 256X256)
-[2018.11.05-03.19.47:085][ 79]LogTexture: Display: Building textures: Texture2D_107 (BGRA8, 256X256)
-[2018.11.05-03.19.47:087][ 79]LogTexture: Display: Building textures: Texture2D_106 (BGRA8, 256X256)
-[2018.11.05-03.19.47:089][ 79]LogTexture: Display: Building textures: Texture2D_105 (BGRA8, 256X256)
-[2018.11.05-03.19.47:090][ 79]LogTexture: Display: Building textures: Texture2D_80 (BGRA8, 256X256)
-[2018.11.05-03.19.56:886][ 79]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto408AAC5B647CBBE59AA0C8A95D2E92147.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto4.umap'
-[2018.11.05-03.19.57:104][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 13.028
-[2018.11.05-03.19.57:104][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.028
-[2018.11.05-03.28.32:474][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-03.29.25:104][844]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.29.52:751][146]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.35.02:992][750]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.35.03:700][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-03.35.06:542][750]LogTexture: Display: Building textures: Texture2D_428 (BGRA8, 256X256)
-[2018.11.05-03.35.06:566][750]LogTexture: Display: Building textures: Texture2D_427 (BGRA8, 256X256)
-[2018.11.05-03.35.06:569][750]LogTexture: Display: Building textures: Texture2D_404 (BGRA8, 256X256)
-[2018.11.05-03.35.06:571][750]LogTexture: Display: Building textures: Texture2D_402 (BGRA8, 256X256)
-[2018.11.05-03.35.06:573][750]LogTexture: Display: Building textures: Texture2D_376 (BGRA8, 256X256)
-[2018.11.05-03.35.06:576][750]LogTexture: Display: Building textures: Texture2D_374 (BGRA8, 256X256)
-[2018.11.05-03.35.06:578][750]LogTexture: Display: Building textures: Texture2D_373 (BGRA8, 256X256)
-[2018.11.05-03.35.06:580][750]LogTexture: Display: Building textures: Texture2D_362 (BGRA8, 256X256)
-[2018.11.05-03.35.06:582][750]LogTexture: Display: Building textures: Texture2D_361 (BGRA8, 256X256)
-[2018.11.05-03.35.06:583][750]LogTexture: Display: Building textures: Texture2D_354 (BGRA8, 256X256)
-[2018.11.05-03.35.06:585][750]LogTexture: Display: Building textures: Texture2D_353 (BGRA8, 256X256)
-[2018.11.05-03.35.06:587][750]LogTexture: Display: Building textures: Texture2D_352 (BGRA8, 256X256)
-[2018.11.05-03.35.06:589][750]LogTexture: Display: Building textures: Texture2D_351 (BGRA8, 256X256)
-[2018.11.05-03.35.06:592][750]LogTexture: Display: Building textures: Texture2D_350 (BGRA8, 256X256)
-[2018.11.05-03.35.06:594][750]LogTexture: Display: Building textures: Texture2D_349 (BGRA8, 256X256)
-[2018.11.05-03.35.06:596][750]LogTexture: Display: Building textures: Texture2D_338 (BGRA8, 256X256)
-[2018.11.05-03.35.06:598][750]LogTexture: Display: Building textures: Texture2D_337 (BGRA8, 256X256)
-[2018.11.05-03.35.06:600][750]LogTexture: Display: Building textures: Texture2D_330 (BGRA8, 256X256)
-[2018.11.05-03.35.06:603][750]LogTexture: Display: Building textures: Texture2D_329 (BGRA8, 256X256)
-[2018.11.05-03.35.06:605][750]LogTexture: Display: Building textures: Texture2D_328 (BGRA8, 256X256)
-[2018.11.05-03.35.06:607][750]LogTexture: Display: Building textures: Texture2D_327 (BGRA8, 256X256)
-[2018.11.05-03.35.06:609][750]LogTexture: Display: Building textures: Texture2D_326 (BGRA8, 256X256)
-[2018.11.05-03.35.06:611][750]LogTexture: Display: Building textures: Texture2D_324 (BGRA8, 256X256)
-[2018.11.05-03.35.06:613][750]LogTexture: Display: Building textures: Texture2D_306 (BGRA8, 256X256)
-[2018.11.05-03.35.06:615][750]LogTexture: Display: Building textures: Texture2D_305 (BGRA8, 256X256)
-[2018.11.05-03.35.06:617][750]LogTexture: Display: Building textures: Texture2D_304 (BGRA8, 256X256)
-[2018.11.05-03.35.06:619][750]LogTexture: Display: Building textures: Texture2D_302 (BGRA8, 256X256)
-[2018.11.05-03.35.06:621][750]LogTexture: Display: Building textures: Texture2D_301 (BGRA8, 256X256)
-[2018.11.05-03.35.06:623][750]LogTexture: Display: Building textures: Texture2D_300 (BGRA8, 256X256)
-[2018.11.05-03.35.06:625][750]LogTexture: Display: Building textures: Texture2D_282 (BGRA8, 256X256)
-[2018.11.05-03.35.06:628][750]LogTexture: Display: Building textures: Texture2D_280 (BGRA8, 256X256)
-[2018.11.05-03.35.06:630][750]LogTexture: Display: Building textures: Texture2D_279 (BGRA8, 256X256)
-[2018.11.05-03.35.06:632][750]LogTexture: Display: Building textures: Texture2D_278 (BGRA8, 256X256)
-[2018.11.05-03.35.06:634][750]LogTexture: Display: Building textures: Texture2D_277 (BGRA8, 256X256)
-[2018.11.05-03.35.06:635][750]LogTexture: Display: Building textures: Texture2D_276 (BGRA8, 256X256)
-[2018.11.05-03.35.06:638][750]LogTexture: Display: Building textures: Texture2D_261 (BGRA8, 256X256)
-[2018.11.05-03.35.06:640][750]LogTexture: Display: Building textures: Texture2D_260 (BGRA8, 256X256)
-[2018.11.05-03.35.06:641][750]LogTexture: Display: Building textures: Texture2D_259 (BGRA8, 256X256)
-[2018.11.05-03.35.06:643][750]LogTexture: Display: Building textures: Texture2D_257 (BGRA8, 256X256)
-[2018.11.05-03.35.06:646][750]LogTexture: Display: Building textures: Texture2D_256 (BGRA8, 256X256)
-[2018.11.05-03.35.06:648][750]LogTexture: Display: Building textures: Texture2D_255 (BGRA8, 256X256)
-[2018.11.05-03.35.06:650][750]LogTexture: Display: Building textures: Texture2D_254 (BGRA8, 256X256)
-[2018.11.05-03.35.06:652][750]LogTexture: Display: Building textures: Texture2D_253 (BGRA8, 256X256)
-[2018.11.05-03.35.06:654][750]LogTexture: Display: Building textures: Texture2D_252 (BGRA8, 256X256)
-[2018.11.05-03.35.06:656][750]LogTexture: Display: Building textures: Texture2D_251 (BGRA8, 256X256)
-[2018.11.05-03.35.06:659][750]LogTexture: Display: Building textures: Texture2D_111 (BGRA8, 256X256)
-[2018.11.05-03.35.06:661][750]LogTexture: Display: Building textures: Texture2D_110 (BGRA8, 256X256)
-[2018.11.05-03.35.06:663][750]LogTexture: Display: Building textures: Texture2D_109 (BGRA8, 256X256)
-[2018.11.05-03.35.06:665][750]LogTexture: Display: Building textures: Texture2D_108 (BGRA8, 256X256)
-[2018.11.05-03.35.06:667][750]LogTexture: Display: Building textures: Texture2D_107 (BGRA8, 256X256)
-[2018.11.05-03.35.06:669][750]LogTexture: Display: Building textures: Texture2D_85 (BGRA8, 256X256)
-[2018.11.05-03.35.06:671][750]LogTexture: Display: Building textures: Texture2D_84 (BGRA8, 256X256)
-[2018.11.05-03.35.06:674][750]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 256X256)
-[2018.11.05-03.35.19:329][750]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto5F08817C44D3878984AE18CBA90E06189.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto5.umap'
-[2018.11.05-03.35.19:533][750]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 16.528
-[2018.11.05-03.35.19:533][750]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 16.528
-[2018.11.05-03.39.56:229][492]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
-[2018.11.05-03.39.56:250][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.45.20:548][928]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.45.21:076][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-03.45.23:951][928]LogTexture: Display: Building textures: Texture2D_387 (BGRA8, 256X256)
-[2018.11.05-03.45.23:956][928]LogTexture: Display: Building textures: Texture2D_386 (BGRA8, 256X256)
-[2018.11.05-03.45.23:958][928]LogTexture: Display: Building textures: Texture2D_362 (BGRA8, 256X256)
-[2018.11.05-03.45.23:960][928]LogTexture: Display: Building textures: Texture2D_361 (BGRA8, 256X256)
-[2018.11.05-03.45.23:962][928]LogTexture: Display: Building textures: Texture2D_338 (BGRA8, 256X256)
-[2018.11.05-03.45.34:812][928]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto6A983CF634A69FEBD11E369AEC5D11DEE.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto6.umap'
-[2018.11.05-03.45.34:901][928]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 13.925
-[2018.11.05-03.45.34:901][928]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.925
-[2018.11.05-03.58.36:553][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-03.58.37:152][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-03.58.39:649][579]LogTexture: Display: Building textures: Texture2D_406 (BGRA8, 256X256)
-[2018.11.05-03.58.39:655][579]LogTexture: Display: Building textures: Texture2D_405 (BGRA8, 256X256)
-[2018.11.05-03.58.39:657][579]LogTexture: Display: Building textures: Texture2D_387 (BGRA8, 256X256)
-[2018.11.05-03.58.39:659][579]LogTexture: Display: Building textures: Texture2D_386 (BGRA8, 256X256)
-[2018.11.05-03.58.39:661][579]LogTexture: Display: Building textures: Texture2D_362 (BGRA8, 256X256)
-[2018.11.05-03.58.39:663][579]LogTexture: Display: Building textures: Texture2D_361 (BGRA8, 256X256)
-[2018.11.05-03.58.39:664][579]LogTexture: Display: Building textures: Texture2D_338 (BGRA8, 256X256)
-[2018.11.05-03.58.39:666][579]LogTexture: Display: Building textures: Texture2D_337 (BGRA8, 256X256)
-[2018.11.05-03.58.50:185][579]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto794592872451D0729F925F48B1DD70EFD.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto7.umap'
-[2018.11.05-03.58.50:263][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 13.161
-[2018.11.05-03.58.50:263][579]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.161
-[2018.11.05-04.07.43:985][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.19.49:718][710]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.19.49:753][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-04.19.52:526][710]LogTexture: Display: Building textures: Texture2D_463 (BGRA8, 256X256)
-[2018.11.05-04.19.52:533][710]LogTexture: Display: Building textures: Texture2D_462 (BGRA8, 256X256)
-[2018.11.05-04.19.52:535][710]LogTexture: Display: Building textures: Texture2D_461 (BGRA8, 256X256)
-[2018.11.05-04.19.52:536][710]LogTexture: Display: Building textures: Texture2D_460 (BGRA8, 256X256)
-[2018.11.05-04.19.52:538][710]LogTexture: Display: Building textures: Texture2D_439 (BGRA8, 256X256)
-[2018.11.05-04.19.52:540][710]LogTexture: Display: Building textures: Texture2D_438 (BGRA8, 256X256)
-[2018.11.05-04.19.52:542][710]LogTexture: Display: Building textures: Texture2D_437 (BGRA8, 256X256)
-[2018.11.05-04.19.52:545][710]LogTexture: Display: Building textures: Texture2D_429 (BGRA8, 256X256)
-[2018.11.05-04.19.52:547][710]LogTexture: Display: Building textures: Texture2D_409 (BGRA8, 256X256)
-[2018.11.05-04.19.52:549][710]LogTexture: Display: Building textures: Texture2D_405 (BGRA8, 256X256)
-[2018.11.05-04.19.52:551][710]LogTexture: Display: Building textures: Texture2D_404 (BGRA8, 256X256)
-[2018.11.05-04.19.52:553][710]LogTexture: Display: Building textures: Texture2D_387 (BGRA8, 256X256)
-[2018.11.05-04.19.52:555][710]LogTexture: Display: Building textures: Texture2D_386 (BGRA8, 256X256)
-[2018.11.05-04.19.52:557][710]LogTexture: Display: Building textures: Texture2D_384 (BGRA8, 256X256)
-[2018.11.05-04.19.52:559][710]LogTexture: Display: Building textures: Texture2D_383 (BGRA8, 256X256)
-[2018.11.05-04.19.52:561][710]LogTexture: Display: Building textures: Texture2D_382 (BGRA8, 256X256)
-[2018.11.05-04.19.52:562][710]LogTexture: Display: Building textures: Texture2D_379 (BGRA8, 256X256)
-[2018.11.05-04.19.52:564][710]LogTexture: Display: Building textures: Texture2D_378 (BGRA8, 256X256)
-[2018.11.05-04.19.52:566][710]LogTexture: Display: Building textures: Texture2D_363 (BGRA8, 256X256)
-[2018.11.05-04.19.52:569][710]LogTexture: Display: Building textures: Texture2D_362 (BGRA8, 256X256)
-[2018.11.05-04.19.52:570][710]LogTexture: Display: Building textures: Texture2D_361 (BGRA8, 256X256)
-[2018.11.05-04.19.52:572][710]LogTexture: Display: Building textures: Texture2D_360 (BGRA8, 256X256)
-[2018.11.05-04.19.52:574][710]LogTexture: Display: Building textures: Texture2D_359 (BGRA8, 256X256)
-[2018.11.05-04.19.52:576][710]LogTexture: Display: Building textures: Texture2D_357 (BGRA8, 256X256)
-[2018.11.05-04.19.52:577][710]LogTexture: Display: Building textures: Texture2D_356 (BGRA8, 256X256)
-[2018.11.05-04.19.52:580][710]LogTexture: Display: Building textures: Texture2D_338 (BGRA8, 256X256)
-[2018.11.05-04.19.52:582][710]LogTexture: Display: Building textures: Texture2D_333 (BGRA8, 256X256)
-[2018.11.05-04.19.52:586][710]LogTexture: Display: Building textures: Texture2D_332 (BGRA8, 256X256)
-[2018.11.05-04.20.04:588][710]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto8A110C1BA429EDC9B0194359A21C7BAB5.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto8.umap'
-[2018.11.05-04.20.04:662][710]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 14.934
-[2018.11.05-04.20.04:662][710]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 14.934
-[2018.11.05-04.20.08:107][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.05-04.20.18:334][984]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1858BCC9C4C99344A409C838222DD2608.tmp' to 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap'
-[2018.11.05-04.20.18:742][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1_BuiltData" FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1_BuiltData.uasset" SILENT=true
-[2018.11.05-04.21.16:020][984]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_BuiltData8D1B61384FC96CFFBA9C4C818A11A4B4.tmp' to 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1_BuiltData.uasset'
-[2018.11.05-04.21.34:899][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.21.43:523][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.34.20:480][809]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.34.20:972][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-04.34.23:711][809]LogTexture: Display: Building textures: Texture2D_382 (BGRA8, 256X256)
-[2018.11.05-04.34.23:716][809]LogTexture: Display: Building textures: Texture2D_379 (BGRA8, 256X256)
-[2018.11.05-04.34.23:718][809]LogTexture: Display: Building textures: Texture2D_363 (BGRA8, 256X256)
-[2018.11.05-04.34.23:720][809]LogTexture: Display: Building textures: Texture2D_362 (BGRA8, 256X256)
-[2018.11.05-04.34.23:722][809]LogTexture: Display: Building textures: Texture2D_361 (BGRA8, 256X256)
-[2018.11.05-04.34.23:724][809]LogTexture: Display: Building textures: Texture2D_360 (BGRA8, 256X256)
-[2018.11.05-04.34.23:726][809]LogTexture: Display: Building textures: Texture2D_359 (BGRA8, 256X256)
-[2018.11.05-04.34.23:728][809]LogTexture: Display: Building textures: Texture2D_356 (BGRA8, 256X256)
-[2018.11.05-04.34.23:730][809]LogTexture: Display: Building textures: Texture2D_338 (BGRA8, 256X256)
-[2018.11.05-04.34.23:732][809]LogTexture: Display: Building textures: Texture2D_337 (BGRA8, 256X256)
-[2018.11.05-04.34.23:734][809]LogTexture: Display: Building textures: Texture2D_335 (BGRA8, 256X256)
-[2018.11.05-04.34.23:736][809]LogTexture: Display: Building textures: Texture2D_334 (BGRA8, 256X256)
-[2018.11.05-04.34.34:615][809]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto91C56520642D0E94D17287681ECE8F1EE.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto9.umap'
-[2018.11.05-04.34.34:757][809]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 13.843
-[2018.11.05-04.34.34:757][809]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.843
-[2018.11.05-04.42.11:501][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.45.29:229][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.45.29:714][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-04.45.32:449][ 83]LogTexture: Display: Building textures: Texture2D_408 (BGRA8, 256X256)
-[2018.11.05-04.45.32:456][ 83]LogTexture: Display: Building textures: Texture2D_407 (BGRA8, 256X256)
-[2018.11.05-04.45.32:458][ 83]LogTexture: Display: Building textures: Texture2D_406 (BGRA8, 256X256)
-[2018.11.05-04.45.32:463][ 83]LogTexture: Display: Building textures: Texture2D_384 (BGRA8, 256X256)
-[2018.11.05-04.45.32:466][ 83]LogTexture: Display: Building textures: Texture2D_383 (BGRA8, 256X256)
-[2018.11.05-04.45.32:469][ 83]LogTexture: Display: Building textures: Texture2D_382 (BGRA8, 256X256)
-[2018.11.05-04.45.32:473][ 83]LogTexture: Display: Building textures: Texture2D_360 (BGRA8, 256X256)
-[2018.11.05-04.45.32:476][ 83]LogTexture: Display: Building textures: Texture2D_359 (BGRA8, 256X256)
-[2018.11.05-04.45.41:874][ 83]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto0F967711B4BA02A48BD664CB4A20F0EBD.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto0.umap'
-[2018.11.05-04.45.41:972][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 12.315
-[2018.11.05-04.45.41:972][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.315
-[2018.11.05-04.45.48:104][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.45.54:687][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.46.09:228][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.46.32:517][926]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2018.11.05-04.46.35:223][209]Cmd: TRANSACTION UNDO
-[2018.11.05-04.46.35:223][209]LogEditorTransaction: Undo Clicking on Actors
-[2018.11.05-04.46.39:508][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.47.04:105][692]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.47.13:256][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.47.49:401][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.49.35:215][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.49.52:180][596]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.50.30:060][898]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.50.30:971][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.50.37:044][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.51.06:405][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.51.14:751][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.51.20:413][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.51.43:817][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.51.49:567][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.52.43:440][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.53.01:090][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.53.08:263][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.53.09:854][235]Cmd: SELECT NONE
-[2018.11.05-04.53.10:608][310]Cmd: SELECT NONE
-[2018.11.05-04.53.16:981][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.53.30:146][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.53.51:844][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.54.07:503][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.54.31:671][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.54.35:046][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.54.52:209][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.55.12:352][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.55.39:063][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-04.55.54:215][769]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.56.23:437][551]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.59.12:945][600]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-04.59.13:451][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-04.59.16:081][600]LogTexture: Display: Building textures: Texture2D_194 (BGRA8, 512X512)
-[2018.11.05-04.59.16:091][600]LogTexture: Display: Building textures: Texture2D_205 (BGRA8, 512X512)
-[2018.11.05-04.59.16:100][600]LogTexture: Display: Building textures: Texture2D_379 (BGRA8, 256X256)
-[2018.11.05-04.59.16:102][600]LogTexture: Display: Building textures: Texture2D_378 (BGRA8, 256X256)
-[2018.11.05-04.59.16:104][600]LogTexture: Display: Building textures: Texture2D_377 (BGRA8, 256X256)
-[2018.11.05-04.59.16:106][600]LogTexture: Display: Building textures: Texture2D_355 (BGRA8, 256X256)
-[2018.11.05-04.59.16:108][600]LogTexture: Display: Building textures: Texture2D_354 (BGRA8, 256X256)
-[2018.11.05-04.59.16:110][600]LogTexture: Display: Building textures: Texture2D_353 (BGRA8, 256X256)
-[2018.11.05-04.59.16:113][600]LogTexture: Display: Building textures: Texture2D_331 (BGRA8, 256X256)
-[2018.11.05-04.59.16:115][600]LogTexture: Display: Building textures: Texture2D_330 (BGRA8, 256X256)
-[2018.11.05-04.59.25:825][600]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto1DCE7D47A4AB36AC863476B97822A2CCB.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto1.umap'
-[2018.11.05-04.59.25:922][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 12.524
-[2018.11.05-04.59.25:922][600]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.524
-[2018.11.05-05.00.35:225][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.00.35:861][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CommandBase)
-[2018.11.05-05.01.01:199][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.04.04:256][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.04.27:771][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.04.46:710][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.04.54:118][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.05.01:933][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.05.56:249][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.06.08:018][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.07.26:052][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.07.28:666][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.09.47:673][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.09.52:235][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.16.17:337][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-05.16.20:235][127]LogTexture: Display: Building textures: Texture2D_576 (BGRA8, 256X256)
-[2018.11.05-05.16.20:242][127]LogTexture: Display: Building textures: Texture2D_575 (BGRA8, 256X256)
-[2018.11.05-05.16.20:243][127]LogTexture: Display: Building textures: Texture2D_574 (BGRA8, 256X256)
-[2018.11.05-05.16.20:246][127]LogTexture: Display: Building textures: Texture2D_551 (BGRA8, 256X256)
-[2018.11.05-05.16.20:248][127]LogTexture: Display: Building textures: Texture2D_550 (BGRA8, 256X256)
-[2018.11.05-05.16.20:251][127]LogTexture: Display: Building textures: Texture2D_526 (BGRA8, 256X256)
-[2018.11.05-05.16.20:253][127]LogTexture: Display: Building textures: Texture2D_505 (BGRA8, 256X256)
-[2018.11.05-05.16.20:255][127]LogTexture: Display: Building textures: Texture2D_504 (BGRA8, 256X256)
-[2018.11.05-05.16.20:257][127]LogTexture: Display: Building textures: Texture2D_501 (BGRA8, 256X256)
-[2018.11.05-05.16.20:259][127]LogTexture: Display: Building textures: Texture2D_481 (BGRA8, 256X256)
-[2018.11.05-05.16.20:261][127]LogTexture: Display: Building textures: Texture2D_479 (BGRA8, 256X256)
-[2018.11.05-05.16.20:263][127]LogTexture: Display: Building textures: Texture2D_478 (BGRA8, 256X256)
-[2018.11.05-05.16.20:265][127]LogTexture: Display: Building textures: Texture2D_477 (BGRA8, 256X256)
-[2018.11.05-05.16.20:267][127]LogTexture: Display: Building textures: Texture2D_476 (BGRA8, 256X256)
-[2018.11.05-05.16.20:269][127]LogTexture: Display: Building textures: Texture2D_455 (BGRA8, 256X256)
-[2018.11.05-05.16.20:271][127]LogTexture: Display: Building textures: Texture2D_454 (BGRA8, 256X256)
-[2018.11.05-05.16.20:273][127]LogTexture: Display: Building textures: Texture2D_453 (BGRA8, 256X256)
-[2018.11.05-05.16.20:275][127]LogTexture: Display: Building textures: Texture2D_452 (BGRA8, 256X256)
-[2018.11.05-05.16.20:278][127]LogTexture: Display: Building textures: Texture2D_431 (BGRA8, 256X256)
-[2018.11.05-05.16.20:280][127]LogTexture: Display: Building textures: Texture2D_430 (BGRA8, 256X256)
-[2018.11.05-05.16.20:284][127]LogTexture: Display: Building textures: Texture2D_429 (BGRA8, 256X256)
-[2018.11.05-05.16.20:286][127]LogTexture: Display: Building textures: Texture2D_428 (BGRA8, 256X256)
-[2018.11.05-05.16.20:288][127]LogTexture: Display: Building textures: Texture2D_427 (BGRA8, 256X256)
-[2018.11.05-05.16.20:291][127]LogTexture: Display: Building textures: Texture2D_405 (BGRA8, 256X256)
-[2018.11.05-05.16.20:293][127]LogTexture: Display: Building textures: Texture2D_404 (BGRA8, 256X256)
-[2018.11.05-05.16.20:298][127]LogTexture: Display: Building textures: Texture2D_402 (BGRA8, 256X256)
-[2018.11.05-05.16.20:301][127]LogTexture: Display: Building textures: Texture2D_379 (BGRA8, 256X256)
-[2018.11.05-05.16.20:303][127]LogTexture: Display: Building textures: Texture2D_378 (BGRA8, 256X256)
-[2018.11.05-05.16.20:305][127]LogTexture: Display: Building textures: Texture2D_377 (BGRA8, 256X256)
-[2018.11.05-05.16.20:307][127]LogTexture: Display: Building textures: Texture2D_355 (BGRA8, 256X256)
-[2018.11.05-05.16.20:309][127]LogTexture: Display: Building textures: Texture2D_354 (BGRA8, 256X256)
-[2018.11.05-05.16.30:717][127]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto2DBF330CC4CF0653349C15EA16B50A7C3.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto2.umap'
-[2018.11.05-05.16.30:852][127]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 13.561
-[2018.11.05-05.16.30:852][127]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.561
-[2018.11.05-05.17.36:006][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.18.32:807][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.18.40:370][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.18.46:581][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.18.47:794][430]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2018.11.05-05.19.02:462][375]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.19.23:552][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.19.39:294][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.20.15:551][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.20.54:368][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.21.07:570][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.21.49:424][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.21.57:642][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.22.01:324][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.26.04:297][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.26.19:713][724]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
-[2018.11.05-05.26.19:742][724]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.29.16:164][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.29.17:029][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CommandBase2)
-[2018.11.05-05.29.39:027][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.05-05.30.15:371][569]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.30.15:534][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-05.30.18:095][569]LogTexture: Display: Building textures: Texture2D_432 (BGRA8, 256X256)
-[2018.11.05-05.30.18:101][569]LogTexture: Display: Building textures: Texture2D_362 (BGRA8, 256X256)
-[2018.11.05-05.30.18:103][569]LogTexture: Display: Building textures: Texture2D_361 (BGRA8, 256X256)
-[2018.11.05-05.30.18:105][569]LogTexture: Display: Building textures: Texture2D_360 (BGRA8, 256X256)
-[2018.11.05-05.30.18:106][569]LogTexture: Display: Building textures: Texture2D_359 (BGRA8, 256X256)
-[2018.11.05-05.30.18:109][569]LogTexture: Display: Building textures: Texture2D_339 (BGRA8, 256X256)
-[2018.11.05-05.30.18:111][569]LogTexture: Display: Building textures: Texture2D_338 (BGRA8, 256X256)
-[2018.11.05-05.30.18:113][569]LogTexture: Display: Building textures: Texture2D_337 (BGRA8, 256X256)
-[2018.11.05-05.30.18:115][569]LogTexture: Display: Building textures: Texture2D_335 (BGRA8, 256X256)
-[2018.11.05-05.30.18:117][569]LogTexture: Display: Building textures: Texture2D_334 (BGRA8, 256X256)
-[2018.11.05-05.30.18:119][569]LogTexture: Display: Building textures: Texture2D_333 (BGRA8, 256X256)
-[2018.11.05-05.30.28:571][569]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto3CD701DF24F70E43791479D9368F19EED.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto3.umap'
-[2018.11.05-05.30.28:685][569]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 13.197
-[2018.11.05-05.30.28:685][569]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.197
-[2018.11.05-05.40.28:749][509]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.40.29:490][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.11.05-05.40.32:137][509]LogTexture: Display: Building textures: Texture2D_363 (BGRA8, 256X256)
-[2018.11.05-05.40.32:146][509]LogTexture: Display: Building textures: Texture2D_362 (BGRA8, 256X256)
-[2018.11.05-05.40.32:148][509]LogTexture: Display: Building textures: Texture2D_339 (BGRA8, 256X256)
-[2018.11.05-05.40.32:150][509]LogTexture: Display: Building textures: Texture2D_338 (BGRA8, 256X256)
-[2018.11.05-05.40.32:151][509]LogTexture: Display: Building textures: Texture2D_337 (BGRA8, 256X256)
-[2018.11.05-05.40.32:154][509]LogTexture: Display: Building textures: Texture2D_335 (BGRA8, 256X256)
-[2018.11.05-05.40.32:157][509]LogTexture: Display: Building textures: Texture2D_334 (BGRA8, 256X256)
-[2018.11.05-05.40.32:159][509]LogTexture: Display: Building textures: Texture2D_333 (BGRA8, 256X256)
-[2018.11.05-05.40.32:161][509]LogTexture: Display: Building textures: Texture2D_332 (BGRA8, 256X256)
-[2018.11.05-05.40.32:162][509]LogTexture: Display: Building textures: Texture2D_331 (BGRA8, 256X256)
-[2018.11.05-05.40.32:164][509]LogTexture: Display: Building textures: Texture2D_330 (BGRA8, 256X256)
-[2018.11.05-05.40.32:167][509]LogTexture: Display: Building textures: Texture2D_329 (BGRA8, 256X256)
-[2018.11.05-05.40.32:168][509]LogTexture: Display: Building textures: Texture2D_328 (BGRA8, 256X256)
-[2018.11.05-05.40.32:171][509]LogTexture: Display: Building textures: Texture2D_327 (BGRA8, 256X256)
-[2018.11.05-05.40.32:173][509]LogTexture: Display: Building textures: Texture2D_315 (BGRA8, 256X256)
-[2018.11.05-05.40.32:175][509]LogTexture: Display: Building textures: Texture2D_313 (BGRA8, 256X256)
-[2018.11.05-05.40.32:177][509]LogTexture: Display: Building textures: Texture2D_312 (BGRA8, 256X256)
-[2018.11.05-05.40.32:179][509]LogTexture: Display: Building textures: Texture2D_311 (BGRA8, 256X256)
-[2018.11.05-05.40.32:181][509]LogTexture: Display: Building textures: Texture2D_310 (BGRA8, 256X256)
-[2018.11.05-05.40.32:184][509]LogTexture: Display: Building textures: Texture2D_309 (BGRA8, 256X256)
-[2018.11.05-05.40.32:186][509]LogTexture: Display: Building textures: Texture2D_308 (BGRA8, 256X256)
-[2018.11.05-05.40.32:188][509]LogTexture: Display: Building textures: Texture2D_307 (BGRA8, 256X256)
-[2018.11.05-05.40.32:190][509]LogTexture: Display: Building textures: Texture2D_306 (BGRA8, 256X256)
-[2018.11.05-05.40.32:192][509]LogTexture: Display: Building textures: Texture2D_305 (BGRA8, 256X256)
-[2018.11.05-05.40.32:194][509]LogTexture: Display: Building textures: Texture2D_304 (BGRA8, 256X256)
-[2018.11.05-05.40.32:196][509]LogTexture: Display: Building textures: Texture2D_302 (BGRA8, 256X256)
-[2018.11.05-05.40.32:198][509]LogTexture: Display: Building textures: Texture2D_290 (BGRA8, 256X256)
-[2018.11.05-05.40.32:200][509]LogTexture: Display: Building textures: Texture2D_289 (BGRA8, 256X256)
-[2018.11.05-05.40.32:203][509]LogTexture: Display: Building textures: Texture2D_288 (BGRA8, 256X256)
-[2018.11.05-05.40.32:205][509]LogTexture: Display: Building textures: Texture2D_287 (BGRA8, 256X256)
-[2018.11.05-05.40.32:207][509]LogTexture: Display: Building textures: Texture2D_286 (BGRA8, 256X256)
-[2018.11.05-05.40.32:209][509]LogTexture: Display: Building textures: Texture2D_285 (BGRA8, 256X256)
-[2018.11.05-05.40.32:212][509]LogTexture: Display: Building textures: Texture2D_284 (BGRA8, 256X256)
-[2018.11.05-05.40.32:213][509]LogTexture: Display: Building textures: Texture2D_283 (BGRA8, 256X256)
-[2018.11.05-05.40.32:216][509]LogTexture: Display: Building textures: Texture2D_282 (BGRA8, 256X256)
-[2018.11.05-05.40.32:218][509]LogTexture: Display: Building textures: Texture2D_280 (BGRA8, 256X256)
-[2018.11.05-05.40.32:220][509]LogTexture: Display: Building textures: Texture2D_279 (BGRA8, 256X256)
-[2018.11.05-05.40.32:222][509]LogTexture: Display: Building textures: Texture2D_278 (BGRA8, 256X256)
-[2018.11.05-05.40.32:224][509]LogTexture: Display: Building textures: Texture2D_265 (BGRA8, 256X256)
-[2018.11.05-05.40.32:226][509]LogTexture: Display: Building textures: Texture2D_264 (BGRA8, 256X256)
-[2018.11.05-05.40.32:229][509]LogTexture: Display: Building textures: Texture2D_263 (BGRA8, 256X256)
-[2018.11.05-05.40.32:231][509]LogTexture: Display: Building textures: Texture2D_262 (BGRA8, 256X256)
-[2018.11.05-05.40.32:233][509]LogTexture: Display: Building textures: Texture2D_261 (BGRA8, 256X256)
-[2018.11.05-05.40.32:236][509]LogTexture: Display: Building textures: Texture2D_260 (BGRA8, 256X256)
-[2018.11.05-05.40.32:238][509]LogTexture: Display: Building textures: Texture2D_259 (BGRA8, 256X256)
-[2018.11.05-05.40.32:240][509]LogTexture: Display: Building textures: Texture2D_257 (BGRA8, 256X256)
-[2018.11.05-05.40.32:242][509]LogTexture: Display: Building textures: Texture2D_256 (BGRA8, 256X256)
-[2018.11.05-05.40.32:244][509]LogTexture: Display: Building textures: Texture2D_255 (BGRA8, 256X256)
-[2018.11.05-05.40.32:246][509]LogTexture: Display: Building textures: Texture2D_254 (BGRA8, 256X256)
-[2018.11.05-05.40.32:249][509]LogTexture: Display: Building textures: Texture2D_253 (BGRA8, 256X256)
-[2018.11.05-05.40.32:251][509]LogTexture: Display: Building textures: Texture2D_120 (BGRA8, 256X256)
-[2018.11.05-05.40.32:253][509]LogTexture: Display: Building textures: Texture2D_119 (BGRA8, 256X256)
-[2018.11.05-05.40.32:256][509]LogTexture: Display: Building textures: Texture2D_118 (BGRA8, 256X256)
-[2018.11.05-05.40.32:258][509]LogTexture: Display: Building textures: Texture2D_117 (BGRA8, 256X256)
-[2018.11.05-05.40.32:260][509]LogTexture: Display: Building textures: Texture2D_116 (BGRA8, 256X256)
-[2018.11.05-05.40.32:262][509]LogTexture: Display: Building textures: Texture2D_114 (BGRA8, 256X256)
-[2018.11.05-05.40.32:264][509]LogTexture: Display: Building textures: Texture2D_113 (BGRA8, 256X256)
-[2018.11.05-05.40.32:266][509]LogTexture: Display: Building textures: Texture2D_112 (BGRA8, 256X256)
-[2018.11.05-05.40.32:268][509]LogTexture: Display: Building textures: Texture2D_111 (BGRA8, 256X256)
-[2018.11.05-05.40.32:271][509]LogTexture: Display: Building textures: Texture2D_110 (BGRA8, 256X256)
-[2018.11.05-05.40.32:273][509]LogTexture: Display: Building textures: Texture2D_109 (BGRA8, 256X256)
-[2018.11.05-05.40.32:275][509]LogTexture: Display: Building textures: Texture2D_108 (BGRA8, 256X256)
-[2018.11.05-05.40.32:277][509]LogTexture: Display: Building textures: Texture2D_96 (BGRA8, 256X256)
-[2018.11.05-05.40.32:279][509]LogTexture: Display: Building textures: Texture2D_95 (BGRA8, 256X256)
-[2018.11.05-05.40.32:281][509]LogTexture: Display: Building textures: Texture2D_94 (BGRA8, 256X256)
-[2018.11.05-05.40.32:283][509]LogTexture: Display: Building textures: Texture2D_92 (BGRA8, 256X256)
-[2018.11.05-05.40.32:285][509]LogTexture: Display: Building textures: Texture2D_91 (BGRA8, 256X256)
-[2018.11.05-05.40.32:288][509]LogTexture: Display: Building textures: Texture2D_90 (BGRA8, 256X256)
-[2018.11.05-05.40.32:290][509]LogTexture: Display: Building textures: Texture2D_88 (BGRA8, 256X256)
-[2018.11.05-05.40.32:292][509]LogTexture: Display: Building textures: Texture2D_87 (BGRA8, 256X256)
-[2018.11.05-05.40.32:294][509]LogTexture: Display: Building textures: Texture2D_86 (BGRA8, 256X256)
-[2018.11.05-05.40.32:296][509]LogTexture: Display: Building textures: Texture2D_85 (BGRA8, 256X256)
-[2018.11.05-05.40.32:298][509]LogTexture: Display: Building textures: Texture2D_84 (BGRA8, 256X256)
-[2018.11.05-05.40.43:029][509]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto4791DFCEC480235B6E75887B1CC759CB8.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto4.umap'
-[2018.11.05-05.40.43:189][509]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 13.757
-[2018.11.05-05.40.43:189][509]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.757
-[2018.11.05-05.52.01:792][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.52.04:886][372]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2018.11.05-05.52.05:517][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.52.08:897][372]LogSlate: Window 'Save Content' being destroyed
-[2018.11.05-05.52.08:916][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.52.09:080][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.52.14:343][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.05-05.52.27:511][372]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template16C65E823463A078EBA4EFBB47D3A814A.tmp' to 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap'
-[2018.11.05-05.52.27:657][372]LogFileHelpers: Saving map 'template1' took 18.569
-[2018.11.05-05.52.27:682][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.52.58:522][372]LogSlate: Window 'Submit Files' being destroyed
-[2018.11.05-05.52.58:540][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.52.59:151][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.05-05.53.41:468][372]LogSourceControl: commit successful: [Alex-Testing ed0e57f] level map creation
-[2018.11.05-05.53.41:556][372]SourceControl: [Alex-Testing ed0e57f] level map creation
-[2018.11.05-05.53.41:556][372]SourceControl:  2 files changed, 4 insertions(+), 4 deletions(-)
-[2018.11.05-05.53.41:569][372]SourceControl: Commited [Alex-Testing ed0e57f] level map creation.
+[2018.11.05-20.43.46:869][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.05-20.43.46:869][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.05-20.43.46:964][  0]LogHAL: Display: Platform has ~ 16 GB [17076789248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.05-20.43.46:964][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.05-20.43.46:964][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.05-20.43.46:965][  0]LogInit: Computer: DESKTOP-L8JRU7I
+[2018.11.05-20.43.46:966][  0]LogInit: User: RichS
+[2018.11.05-20.43.46:966][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.11.05-20.43.46:966][  0]LogInit: High frequency timer resolution =3.222659 MHz
+[2018.11.05-20.43.46:966][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.05-20.43.46:966][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.05-20.43.46:966][  0]LogMemory: Process Physical Memory: 101.87 MB used, 101.87 MB peak
+[2018.11.05-20.43.46:967][  0]LogMemory: Process Virtual Memory: 86.02 MB used, 86.02 MB peak
+[2018.11.05-20.43.46:967][  0]LogMemory: Physical Memory: 5810.53 MB used,  10475.16 MB free, 16285.70 MB total
+[2018.11.05-20.43.46:967][  0]LogMemory: Virtual Memory: 4657.53 MB used,  10475.16 MB free, 134217728.00 MB total
+[2018.11.05-20.43.47:003][  0]LogInit: Using OS detected language (en-US).
+[2018.11.05-20.43.47:003][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.05-20.43.47:005][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.05-20.43.47:495][  0]LogStreaming: Display: Took  0.493s to InitEngineTextLocalization.
+[2018.11.05-20.43.47:496][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.05-20.43.47:576][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.05-20.43.47:576][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.05-20.43.47:817][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.05-20.43.47:817][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.05-20.43.47:920][  0]LogD3D11RHI:    0. 'NVIDIA TITAN X (Pascal)' (Feature Level 11_0)
+[2018.11.05-20.43.47:920][  0]LogD3D11RHI:       12147/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.05-20.43.47:922][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.05-20.43.47:922][  0]LogD3D11RHI:       0/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.05-20.43.47:923][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.05-20.43.47:934][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.05-20.43.47:934][  0]LogD3D11RHI:     GPU DeviceId: 0x1b00 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.05-20.43.47:934][  0]LogWindows: EnumDisplayDevices:
+[2018.11.05-20.43.47:934][  0]LogWindows:    0. 'NVIDIA TITAN X (Pascal)' (P:1 D:1)
+[2018.11.05-20.43.47:935][  0]LogWindows:    1. 'NVIDIA TITAN X (Pascal)' (P:0 D:1)
+[2018.11.05-20.43.47:935][  0]LogWindows:    2. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2018.11.05-20.43.47:935][  0]LogWindows:    3. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2018.11.05-20.43.47:936][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.05-20.43.47:936][  0]LogD3D11RHI:     Adapter Name: NVIDIA TITAN X (Pascal)
+[2018.11.05-20.43.47:936][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2018.11.05-20.43.47:936][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2018.11.05-20.43.47:936][  0]LogRHI: Texture pool is 8502 MB (70% of 12147 MB)
+[2018.11.05-20.43.48:004][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.05-20.43.48:057][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.05-20.43.48:158][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (L:/Unreal_Projects/myICHU/Intermediate/Shaders/WorkingDirectory/13360/).
+[2018.11.05-20.43.48:158][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RichS/AppData/Local/Temp/UnrealShaderWorkingDir/270FD00B4D7CCEEAB2960695DA45F987/'.
+[2018.11.05-20.43.48:532][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.05-20.43.48:548][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.05-20.43.48:570][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.05-20.43.48:586][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.05-20.43.48:603][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.05-20.43.48:620][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.05-20.43.48:637][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.05-20.43.48:653][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.05-20.43.48:662][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:750][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.05-20.43.48:848][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.05-20.43.48:848][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.05-20.43.48:920][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.05-20.43.48:920][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.05-20.43.48:936][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.05-20.43.48:952][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.05-20.43.48:967][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.05-20.43.49:003][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.05-20.43.49:031][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.05-20.43.49:031][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.05-20.43.49:140][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.05-20.43.49:140][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.05-20.43.49:140][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.05-20.43.50:130][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.05-20.43.50:233][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file L:/Unreal_Projects/myICHU/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file L:/Unreal_Projects/myICHU/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.05-20.43.50:248][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.05-20.43.50:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RichS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.05-20.43.50:261][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.05-20.43.50:261][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.05-20.43.50:293][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.05-20.43.50:294][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.05-20.43.50:295][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.05-20.43.50:382][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2018.11.05-20.43.50:820][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.05-20.43.50:992][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.05-20.43.50:998][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.05-20.43.50:998][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.05-20.43.50:998][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.05-20.43.50:998][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.05-20.43.51:023][  0]LogNetVersion: AndroidProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1322049604)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_FOL_Rocks_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_C_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_ES_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_MD_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SOW_Cliffside_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SOW_Dirt_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_WATR_Sewer03_DIF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS_AREA_1/M01_PLST_setTex01_DIF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS_AREA_3/rebar_norm.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 1.079850 seconds
+[2018.11.05-20.43.52:727][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.05-20.43.52:727][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.05-20.43.52:727][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.05-20.43.53:822][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.05-20.43.53:836][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.05-20.43.54:018][  0]SourceControl: Source control is disabled
+[2018.11.05-20.43.54:970][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.05-20.43.55:232][  0]LogOcInput: OculusInput pre-init called
+[2018.11.05-20.43.55:356][  0]LogEngine: Initializing Engine...
+[2018.11.05-20.43.55:357][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.05-20.43.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.05-20.43.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.05-20.43.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.05-20.43.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.05-20.43.55:640][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.05-20.43.55:663][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.05-20.43.55:715][  0]LogInit: XAudio2 using 'LCD TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.05-20.43.55:772][  0]LogInit: FAudioDevice initialized.
+[2018.11.05-20.43.55:772][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.05-20.43.55:918][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.05-20.43.55:926][  0]LogInit: Texture streaming: Enabled
+[2018.11.05-20.43.55:979][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.05-20.43.56:024][  0]LogInit: Transaction tracking system initialized
+[2018.11.05-20.43.56:066][  0]BlueprintLog: New page: Editor Load
+[2018.11.05-20.43.56:271][  0]LocalizationService: Localization service is disabled
+[2018.11.05-20.43.56:895][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.05-20.43.56:895][  0]LogCook: Display: Mobile HDR setting 0
+[2018.11.05-20.43.56:895][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.05-20.43.56:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.05-20.43.56:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.05-20.43.56:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.11.05-20.43.56:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.05-20.43.57:104][  0]Cmd: MAP LOAD FILE="L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.05-20.43.57:120][  0]LightingResults: New page: Lighting Build
+[2018.11.05-20.43.57:124][  0]MapCheck: New page: Map Check
+[2018.11.05-20.43.57:124][  0]LightingResults: New page: Lighting Build
+[2018.11.05-20.43.57:156][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:207][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ThirdPersonGameModeICHU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:248][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/' took 0.52s
+[2018.11.05-20.43.57:248][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/HudCharacterTest.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:311][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/TestThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:375][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:409][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/WallRunLeft.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:430][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:504][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:553][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonClimb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:586][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonJump_End.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:625][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:649][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonWallRunLeft.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:673][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonWallRunRight.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:691][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:770][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_JumpClimb_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:885][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/CameraSwitcherTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:905][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/FrontCameraScreenTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:945][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/fulloptionsMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:969][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/gameframework/ichugameinstance.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:002][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/MAKEUP_20170608224327_save.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:051][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ingameMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:084][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ingameoptionsMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:187][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:643][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/CameraSwitcherTexture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:664][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/FrontCameraScreenTexture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:909][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/JinTPCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:948][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:976][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:004][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_WallRunRight.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:032][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:054][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:091][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/TestThirdPersonClimb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:117][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:152][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:183][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:224][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:299][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:332][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Body.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:378][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:426][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:468][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_S.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:503][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Eye.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:524][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/EYE_JinF00.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:551][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Hair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:574][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HAIR_JinF_031_col1_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:606][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HAIR_JinF_031_col1_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:628][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Head.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:659][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HEAD_Diffuse_001.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:689][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HEAD_Normal_001.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:715][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_PhysicsAsset.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:885][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:961][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/trailertrucktest.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:029][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/SM_Vehicles/SM_MCH_ClubK_Truck.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:062][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/SM_MCH_ClubK_Truck/T_MCH_ClubK_Truck_DIF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:126][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/SM_MCH_ClubK_Truck/T_MCH_ClubK_Truck_NRM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:162][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/material_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:194][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/mainMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:226][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/titlemyichu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:295][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/short_versionRelaxing_River_Sounds_-_Peaceful_Forest_River_-_3_Hours_Long_-_HD_1080p_-_Nature_Video.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.01:376][  0]LogAIModule: Creating AISystem for world mainmenuMAP
+[2018.11.05-20.44.01:378][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_streaming1_MAP) is flushing async loading
+[2018.11.05-20.44.01:378][  0]LogStreaming: Display: Flushing async loaders.
+[2018.11.05-20.44.01:450][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_streaming1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.01:473][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_streaming1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.01:509][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/level1_completeMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.01:574][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/gimp_ichu_aploogy_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:142][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/gimp_ichu_aploogy.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:248][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP) is flushing async loading
+[2018.11.05-20.44.02:276][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:292][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:304][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_alextest1_MAP) is flushing async loading
+[2018.11.05-20.44.02:340][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alextest1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:381][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush4_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:403][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:436][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branchs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:523][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush6_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:591][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:666][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree10_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:731][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:014][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree1_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:080][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:151][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree6_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:194][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree9_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:247][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_03_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:280][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_03.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:476][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alextest1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:901][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:943][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_opgls2_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:982][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_COLOR.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:228][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP) is flushing async loading
+[2018.11.05-20.44.06:266][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:484][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/LevelTeleporter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:518][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Material/Telporter2Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:528][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Material/Telporter_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:648][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/StaticMeshes/Cone.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:727][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:800][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:854][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture-png-33.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:889][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Cayon_Rock_opengls2_Mat1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:921][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_DISP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:955][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_NORM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:005][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_ROUGH.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:042][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/big.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:078][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture_Mat_Inst1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:123][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_Big.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:141][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_256_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:183][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_256.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:201][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_long_Mat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:217][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_medium_Mat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:262][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_Opengls2_MatBig_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:280][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_Opengls2_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:324][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_COLOR.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:377][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_DISP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:415][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_NORM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:456][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_ROUGH.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:728][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/levelcompleteMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:798][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:817][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
+[2018.11.05-20.44.07:817][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset.
+[2018.11.05-20.44.07:817][  0]LoadErrors: Error: /Game/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys : Can't find file for asset. /Engine/EngineSounds/uiSound
+[2018.11.05-20.44.07:818][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
+[2018.11.05-20.44.07:818][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset.
+[2018.11.05-20.44.07:819][  0]LoadErrors: Error: /Game/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys : Can't find file for asset. /Engine/EngineSounds/uiSound
+[2018.11.05-20.44.08:049][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
+[2018.11.05-20.44.08:049][  0]LoadErrors: Failed to load /Engine/EngineSounds/uiSound.uiSound Referenced by y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys
+[2018.11.05-20.44.08:049][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading NULL.
+[2018.11.05-20.44.08:049][  0]LoadErrors: Failed to load /Engine/EngineSounds/uiSound.uiSound Referenced by y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys
+[2018.11.05-20.44.08:623][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.05-20.44.08:676][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.05-20.44.08:857][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 180.151ms to complete.
+[2018.11.05-20.44.08:857][  0]LogFileHelpers: Loading map 'mainmenuMAP' took 11.753
+[2018.11.05-20.44.09:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-20.44.09:125][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-20.44.09:135][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-20.44.09:147][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-20.44.09:202][  0]LogCollectionManager: Loaded 0 collections in 0.006129 seconds
+[2018.11.05-20.44.09:320][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Saved/Collections/' took 0.01s
+[2018.11.05-20.44.09:320][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/Developers/RichS/Collections/' took 0.01s
+[2018.11.05-20.44.09:320][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/Collections/' took 0.01s
+[2018.11.05-20.44.09:320][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.05-20.44.09:363][  0]LogContentBrowser: Native class hierarchy populated in 0.0369 seconds. Added 2572 classes and 603 folders.
+[2018.11.05-20.44.09:388][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.05-20.44.09:945][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.05-20.44.09:971][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.05-20.44.10:069][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2018.11.05-20.44.10:433][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.05-20.44.10:435][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.05-20.44.10:449][  0]LogSlate: Took 0.007114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.05-20.44.10:626][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.11.05-20.44.10:663][  0]LogRenderer: Reallocating scene render targets to support 1128x696 Format 9 NumSamples 1 (Frame:1).
+[2018.11.05-20.44.10:757][  0]LogSlate: Took 0.008710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.05-20.44.11:053][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.11.05-20.44.11:054][  0]LogLoad: (Engine Initialization) Total time: 29.09 seconds
+[2018.11.05-20.44.11:054][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.05-20.44.11:067][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.05-20.44.11:196][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.11.05-20.44.11:218][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-20.44.12:556][  6]LogAssetRegistry: Asset discovery search completed in 22.1977 seconds
+[2018.11.05-20.44.12:559][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.05-20.44.12:559][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2018.11.05-20.44.23:667][ 65]LogSlate: Window 'Message Log' being destroyed
+[2018.11.05-20.44.23:675][ 65]LogSlate: Window 'Message Log' being destroyed
+[2018.11.05-20.44.25:511][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.44.25:664][ 85]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.05-20.44.26:599][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/M_SOW_Terrain_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.26:708][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/GrandCanyon/Environment/T_SOW_Dirt_01_DIFF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:176][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/CommandBase.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:355][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/CommandRoom/CommandRoomConcrete.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:584][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid1_DSR_Obstacle_Grid_M24SOW_Zone_1_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:602][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/material_0.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:611][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid2_DSR_Obstacle_Grid_M24SOW_Zone_2_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:620][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid3_DSR_Obstacle_Grid_M24SOW_Zone_3_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:740][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/Tent.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.31:872][ 85]LogAIModule: Creating AISystem for world template1
+[2018.11.05-20.44.36:132][ 85]LogAssetEditorManager: Opening Asset editor for World /Game/Dangerous32/Maps/template1.template1
+[2018.11.05-20.44.36:182][ 85]Cmd: MAP LOAD FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.05-20.44.36:182][ 85]LightingResults: New page: Lighting Build
+[2018.11.05-20.44.36:183][ 85]LoadErrors: New page: Loading map: template1.umap
+[2018.11.05-20.44.36:186][ 85]MapCheck: New page: Map Check
+[2018.11.05-20.44.36:186][ 85]LightingResults: New page: Lighting Build
+[2018.11.05-20.45.08:799][ 85]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.05-20.45.09:215][ 85]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.05-20.45.09:498][ 85]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 282.406ms to complete.
+[2018.11.05-20.45.09:503][ 85]LogFileHelpers: Loading map 'template1' took 33.322
+[2018.11.05-20.45.09:669][ 85]LogFileCache: Retrieving MD5 hashes for directory 'L:/Unreal_Projects/myICHU/Content/' took 58.58s
+[2018.11.05-20.45.24:099][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.45.28:853][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.45.29:118][266]LogRenderer: Reallocating scene render targets to support 1132x696 Format 9 NumSamples 1 (Frame:2188).
+[2018.11.05-20.45.29:177][267]LogRenderer: Reallocating scene render targets to support 1152x696 Format 9 NumSamples 1 (Frame:2190).
+[2018.11.05-20.45.29:237][268]LogRenderer: Reallocating scene render targets to support 1200x696 Format 9 NumSamples 1 (Frame:2192).
+[2018.11.05-20.45.29:295][269]LogRenderer: Reallocating scene render targets to support 1224x696 Format 9 NumSamples 1 (Frame:2194).
+[2018.11.05-20.45.29:355][270]LogRenderer: Reallocating scene render targets to support 1244x696 Format 9 NumSamples 1 (Frame:2196).
+[2018.11.05-20.45.29:415][271]LogRenderer: Reallocating scene render targets to support 1260x696 Format 9 NumSamples 1 (Frame:2198).
+[2018.11.05-20.45.29:458][272]LogRenderer: Reallocating scene render targets to support 1272x696 Format 9 NumSamples 1 (Frame:2200).
+[2018.11.05-20.45.29:505][273]LogRenderer: Reallocating scene render targets to support 1288x696 Format 9 NumSamples 1 (Frame:2202).
+[2018.11.05-20.45.29:557][274]LogRenderer: Reallocating scene render targets to support 1316x696 Format 9 NumSamples 1 (Frame:2204).
+[2018.11.05-20.45.29:713][275]LogRenderer: Reallocating scene render targets to support 1340x696 Format 9 NumSamples 1 (Frame:2206).
+[2018.11.05-20.45.29:797][276]LogRenderer: Reallocating scene render targets to support 1388x696 Format 9 NumSamples 1 (Frame:2208).
+[2018.11.05-20.45.29:862][277]LogRenderer: Reallocating scene render targets to support 1416x696 Format 9 NumSamples 1 (Frame:2210).
+[2018.11.05-20.45.29:935][278]LogRenderer: Reallocating scene render targets to support 1428x696 Format 9 NumSamples 1 (Frame:2212).
+[2018.11.05-20.45.31:832][483]LogRenderer: Reallocating scene render targets to support 1428x700 Format 9 NumSamples 1 (Frame:2390).
+[2018.11.05-20.45.31:877][484]LogRenderer: Reallocating scene render targets to support 1428x708 Format 9 NumSamples 1 (Frame:2392).
+[2018.11.05-20.45.31:929][485]LogRenderer: Reallocating scene render targets to support 1428x724 Format 9 NumSamples 1 (Frame:2394).
+[2018.11.05-20.45.31:987][486]LogRenderer: Reallocating scene render targets to support 1428x740 Format 9 NumSamples 1 (Frame:2396).
+[2018.11.05-20.45.32:047][487]LogRenderer: Reallocating scene render targets to support 1428x752 Format 9 NumSamples 1 (Frame:2398).
+[2018.11.05-20.45.32:092][488]LogRenderer: Reallocating scene render targets to support 1428x768 Format 9 NumSamples 1 (Frame:2400).
+[2018.11.05-20.45.32:134][489]LogRenderer: Reallocating scene render targets to support 1428x772 Format 9 NumSamples 1 (Frame:2402).
+[2018.11.05-20.45.32:176][490]LogRenderer: Reallocating scene render targets to support 1428x776 Format 9 NumSamples 1 (Frame:2404).
+[2018.11.05-20.45.32:369][503]LogRenderer: Reallocating scene render targets to support 1428x780 Format 9 NumSamples 1 (Frame:2408).
+[2018.11.05-20.45.39:296][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.47.46:688][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.48.02:521][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.49.00:856][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.49.04:320][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.50.02:680][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandcanyon_custom_map_grid1_DSR_Obstacle_Grid_M24SOW_Zone_1_mo)
+[2018.11.05-20.50.06:578][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandcanyon_custom_map_grid2_DSR_Obstacle_Grid_M24SOW_Zone_2_mo)
+[2018.11.05-20.53.00:695][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-20.56.47:363][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.57.40:188][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CommandBase2)
+[2018.11.05-20.57.46:446][666]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (CommandBase2)
+[2018.11.05-20.57.46:481][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-20.57.47:180][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandcanyon_custom_map_grid2_DSR_Obstacle_Grid_M24SOW_Zone_2_mo)
+[2018.11.05-20.57.49:089][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.58.10:585][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.58.41:179][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CommandBase2)
+[2018.11.05-20.59.58:177][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.00.52:903][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.02.57:732][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.05-21.03.16:289][603]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto15B1D127046517298FA699890986DEE5F.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto1.umap'
+[2018.11.05-21.03.16:374][603]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 18.723
+[2018.11.05-21.03.16:374][603]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 18.723
+[2018.11.05-21.05.42:138][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.08.22:098][462]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-21.08.24:012][647]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.05-21.08.24:793][647]EditorErrors: Warning: No assets to check in!
+[2018.11.05-21.08.37:854][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.17.19:134][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.18.27:996][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.18.55:555][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CommandBase)
+[2018.11.05-21.20.34:758][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.20.57:003][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.21.13:375][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.22.04:425][427]LogActorFactory: Actor Factory created m01_bld_s2x1_009_As_RDM_LODH
+[2018.11.05-21.22.06:274][574]LogActorFactory: Actor Factory created m01_bld_s2x1_009_As_RDM_LODH
+[2018.11.05-21.23.10:272][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.23.10:474][ 87]LogActorFactory: Actor Factory created m01_bld_s2x1_009_As_RDM_LODH
+[2018.11.05-21.23.11:441][174]LogActorFactory: Actor Factory created m01_bld_s2x1_009_As_RDM_LODH
+[2018.11.05-21.24.10:803][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.24.11:406][698]LogActorFactory: Actor Factory created SM_ENV_SOW_STRUCT_Scaffold_Wall_02
+[2018.11.05-21.24.12:345][759]LogActorFactory: Actor Factory created SM_ENV_SOW_STRUCT_Scaffold_Wall_02
+[2018.11.05-21.24.42:932][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.24.43:166][754]LogActorFactory: Actor Factory created SM_DSR_ZNT_STRUCT_Fence_4x_Wall
+[2018.11.05-21.24.43:885][813]LogActorFactory: Actor Factory created SM_DSR_ZNT_STRUCT_Fence_4x_Wall
+[2018.11.05-21.25.05:109][735]Cmd: EDIT COPY
+[2018.11.05-21.25.05:338][749]Cmd: EDIT PASTE
+[2018.11.05-21.25.07:842][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.25.15:221][686]Cmd: EDIT COPY
+[2018.11.05-21.25.15:446][711]Cmd: EDIT PASTE
+[2018.11.05-21.25.20:317][185]Cmd: EDIT COPY
+[2018.11.05-21.25.20:719][218]Cmd: EDIT PASTE
+[2018.11.05-21.26.08:648][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.26.47:795][708]LogActorFactory: Actor Factory created SM_SOW_Cliffset_02_a
+[2018.11.05-21.26.48:951][795]LogActorFactory: Actor Factory created SM_SOW_Cliffset_02_a
+[2018.11.05-21.27.40:233][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.27.40:503][824]LogActorFactory: Actor Factory created SM_SOW_Cliffset_01_a
+[2018.11.05-21.27.41:814][930]LogActorFactory: Actor Factory created SM_SOW_Cliffset_01_a
+[2018.11.05-21.28.02:630][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (m01_bld_s2x1_009_As_RDM_LODH4)
+[2018.11.05-21.28.22:344][207]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.11.05-21.28.24:751][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.05-21.28.27:728][688]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.05-21.28.30:420][905]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.05-21.28.34:135][192]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.05-21.28.41:610][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (m01_bld_s2x1_009_As_RDM_LODH3)
+[2018.11.05-21.29.36:657][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.30.37:393][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.31.33:508][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.05-21.31.45:470][579]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto2A72349A044DA15A65923D180315E377F.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto2.umap'
+[2018.11.05-21.31.45:568][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 12.101
+[2018.11.05-21.31.45:568][579]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.101
+[2018.11.05-21.32.11:320][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-21.32.13:161][517]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.05-21.32.13:786][517]EditorErrors: Warning: No assets to check in!
+[2018.11.05-21.32.15:839][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.32.16:000][692]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-21.32.16:020][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.05-21.32.25:955][692]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template146A725E1447799B43031B38679C2C882.tmp' to 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap'
+[2018.11.05-21.32.26:332][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1_BuiltData" FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1_BuiltData.uasset" SILENT=true
+[2018.11.05-21.33.22:845][692]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_BuiltDataF03FE3F945261373686190A40C0716A7.tmp' to 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1_BuiltData.uasset'
+[2018.11.05-21.34.34:529][565]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.11.05-21.35.02:146][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.36.49:835][ 93]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.05-21.37.31:569][ 93]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.05-21.38.51:474][ 93]LogSourceControl: commit successful: [Alex-Testing 9fb126d] updated map and added mesh
+[2018.11.05-21.38.51:608][ 93]SourceControl: [Alex-Testing 9fb126d] updated map and added mesh
+[2018.11.05-21.38.51:608][ 93]SourceControl:  2 files changed, 3 insertions(+), 3 deletions(-)
+[2018.11.05-21.38.51:634][ 93]SourceControl: Commited [Alex-Testing 9fb126d] updated map and added mesh.
