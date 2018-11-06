@@ -85,6 +85,27 @@ Saved/Logs/AndroidProject.log
 
 
 # Individual files from Alex
+.idea/
+.kdev4/
+.vscode/
+AndroidProject.code-workspace
+AndroidProject.kdev4
+AndroidProject.pro
+AndroidProject.workspace
+AndroidProjectCodeCompletionFolders.txt
+AndroidProjectCodeLitePreProcessor.txt
+AndroidProjectConfig.pri
+AndroidProjectDefines.pri
+AndroidProjectHeader.pri
+AndroidProjectIncludes.pri
+AndroidProjectSource.pri
+CMakeLists.txt
+Makefile
+Saved/Config/Linux/Engine.ini
+Saved/Config/Linux/EditorPerProjectUserSettings.ini
+Saved/Autosaves/PackageRestoreData.json
+Intermediate/CachedAssetRegistry.bin
+
 
 
 # These were made with latest UE4 engine so they must be good
