@@ -1,3 +1,114 @@
+# Individual files from LDKBagel
+AndroidProject.code-workspace
+AndroidProject.pro
+AndroidProject.workspace
+AndroidProjectCodeCompletionFolders.txt
+AndroidProjectCodeLitePreProcessor.txt
+AndroidProjectConfig.pri
+AndroidProjectDefines.pri
+AndroidProjectHeader.pri
+AndroidProjectIncludes.pri
+AndroidProjectSource.pri
+CMakeLists.txt
+Makefile
+
+Build/AllDesktop/FileOpenOrder/CookerOpenOrder.log	
+Build/Android/FileOpenOrder/CookerOpenOrder.log	
+Build/Android/project.properties	
+Build/Android/res/values/GooglePlayAppID.xml	
+Build/Android/src/com/UnstoppableTrio/MyIchu/AlarmReceiver.java	
+Build/Android/src/com/UnstoppableTrio/MyIchu/DownloaderActivity.java	
+Build/Android/src/com/UnstoppableTrio/MyIchu/OBBData.java	
+Build/Android/src/com/UnstoppableTrio/MyIchu/OBBDownloaderService.java	
+Build/Android/src/com/epicgames/ue4/DownloadShim.java	
+Build/AndroidClient/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ASTC/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ASTC/FileOpenOrder/EditorOpenOrder.log	
+Build/Android_ASTCClient/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ATC/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ATC/FileOpenOrder/EditorOpenOrder.log	
+Build/Android_ATCClient/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_DXT/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_DXTClient/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ETC1/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ETC1Client/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ETC1a/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ETC1aClient/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ETC2/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_ETC2Client/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_Multi/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_Multi/FileOpenOrder/EditorOpenOrder.log	
+Build/Android_MultiClient/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_PVRTC/FileOpenOrder/CookerOpenOrder.log	
+Build/Android_PVRTCClient/FileOpenOrder/CookerOpenOrder.log	
+Build/HTML5/FileOpenOrder/CookerOpenOrder.log	
+Build/Linux/FileOpenOrder/CookerOpenOrder.log	
+Build/LinuxClient/FileOpenOrder/CookerOpenOrder.log	
+Build/LinuxNoEditor/FileOpenOrder/CookerOpenOrder.log	
+Build/LinuxServer/FileOpenOrder/CookerOpenOrder.log	
+Config/DefaultEditorPerProjectUserSettings.ini	
+Intermediate/CachedAssetRegistry.bin	
+Intermediate/Config/CoalescedSourceConfigs/Engine.ini	
+Intermediate/Config/CoalescedSourceConfigs/Game.ini	
+Intermediate/ReimportCache/724588881.bin	
+Saved/Backup/M_ClothTarps_01_2018-10-31-20-50-51.uasset
+Saved/Backup/SM_ClothTarps_01_2018-10-31-20-50-56.uasset
+Saved/Backup/level1_intro_foundation1_MAP_2018-11-01-00-29-09.umap
+Saved/Backup/mainmenuMAP_2018-10-31-20-54-03.umap
+Saved/Backup/mainmenuMAP_BuiltData_2018-10-31-20-54-03.uasset
+Saved/Config/CrashReportClient/UE4CC-Linux-0002047D08D63F90AA2250D48C09537C/CrashReportClient.ini
+Saved/Config/CrashReportClient/UE4CC-Linux-000220BF08D63D4032E12B5ABE7868D7/CrashReportClient.ini	
+Saved/Config/CrashReportClient/UE4CC-Linux-00023E9A08D63F7B204ED8E22EE5A046/CrashReportClient.ini
+Saved/Config/CrashReportClient/UE4CC-Linux-0002429E08D63F723E42F648813FCA69/CrashReportClient.ini
+Saved/Config/CrashReportClient/UE4CC-Linux-000248B108D63D3C9FB7C116BBA35096/CrashReportClient.ini	
+Saved/Config/CrashReportClient/UE4CC-Linux-00025BFA08D63F797607D04C3A06ACF6/CrashReportClient.ini
+Saved/Config/CrashReportClient/UE4CC-Linux-0002815508D63D3BB0477C2AA3B1B044/CrashReportClient.ini	
+Saved/Config/CrashReportClient/UE4CC-Linux-0002AA4008D63F79CC69807042AA0B5F/CrashReportClient.ini
+Saved/Config/CrashReportClient/UE4CC-Linux-0002AF1708D63F811AF39346FDB7DA43/CrashReportClient.ini
+Saved/Config/CrashReportClient/UE4CC-Linux-0002B4E608D63D31C81FFCAA4D6517C1/CrashReportClient.ini	
+Saved/Config/CrashReportClient/UE4CC-Linux-0002C9D708D63D1DE1D399B84FF70D79/CrashReportClient.ini	
+Saved/Config/CrashReportClient/UE4CC-Linux-0002D3ED08D63F87142C6DFC96A3F00B/CrashReportClient.ini
+Saved/Config/CrashReportClient/UE4CC-Linux-0002F14808D63F880E15459679DFDE5D/CrashReportClient.ini
+Saved/Config/LevelState/610753631.json
+Saved/Config/Linux/EditorPerProjectUserSettings.ini	
+Saved/Config/WorldState/610753631.json
+Saved/Logs/AndroidProject-backup-2018.10.29-00.02.13.log
+Saved/Logs/AndroidProject-backup-2018.10.29-01.13.08.log
+Saved/Logs/AndroidProject-backup-2018.10.29-01.45.26.log
+Saved/Logs/AndroidProject-backup-2018.10.31-21.40.22.log
+Saved/Logs/AndroidProject-backup-2018.10.31-21.42.47.log
+Saved/Logs/AndroidProject-backup-2018.10.31-23.17.51.log
+Saved/Logs/AndroidProject-backup-2018.10.31-23.24.50.log
+Saved/Logs/AndroidProject-backup-2018.11.01-00.26.28.log
+Saved/Logs/AndroidProject.log	
+
+
+
+# Individual files from Alex
+.idea/
+.kdev4/
+.vscode/
+AndroidProject.code-workspace
+AndroidProject.kdev4
+AndroidProject.pro
+AndroidProject.workspace
+AndroidProjectCodeCompletionFolders.txt
+AndroidProjectCodeLitePreProcessor.txt
+AndroidProjectConfig.pri
+AndroidProjectDefines.pri
+AndroidProjectHeader.pri
+AndroidProjectIncludes.pri
+AndroidProjectSource.pri
+CMakeLists.txt
+Makefile
+Saved/Config/Linux/Engine.ini
+Saved/Config/Linux/EditorPerProjectUserSettings.ini
+Saved/Autosaves/PackageRestoreData.json
+Intermediate/CachedAssetRegistry.bin
+
+
+
+# These were made with latest UE4 engine so they must be good
 Binaries
 DerivedDataCache
 Intermediate
@@ -12,60 +123,22 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+*.kdev4
+*.idea
 
 
 
+# These I found online and added what I believed works with latest UEbuild 4.20.1
+# Builds
+Build/*
 
+# Whitelist PakBlacklist-<BuildConfiguration>.txt files
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
 
+# Don't ignore icon files in Build
+!Build/**/*.ico
 
-# Ignore all files by default, but scan all directories.
-*
-!*/
-
-# Do not ignore git files in the root of the repo.
-!/.git*
-
-# Do not ignore current project's `.uproject`.
-!/Game.uproject
-
-# Do not ignore source, config and plugins dirs.
-!/Source/**
-!/Config/**
-!/Plugins/**
-
-# Only allow .uasset and .umap files from /Content dir.
-# They're tracked by git-lfs, don't forget to track other
-# files if adding them here.
-!/Content/**/*.uasset
-!/Content/**/*.umap
-
-# Allow any files from /RawContent dir.
-# Any file in /RawContent dir will be managed by git lfs.
-!/RawContent/**/*
-
-# OS/platform generated files.
-
-# Windows
-ehthumbs.db
-Thumbs.db
-
-# Mac OS X
-.DS_Store
-.DS_Store?
-.AppleDouble
-.LSOverride
-._*
-
-# Linux
-*~
-.directory
-
-# vim
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-
-# Visual Studio
-.vs
+# Configuration files generated by the Editor
+Saved/*
