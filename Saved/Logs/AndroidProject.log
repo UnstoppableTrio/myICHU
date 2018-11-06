@@ -1,3 +1,602 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:99a0e6b8903d66338757c596f31acbd5c9eef38655c06b3139ce526fb0cfc127
-size 94682
+﻿Log file open, 11/05/18 12:43:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AndroidProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.452868
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.912s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz, GPU: NVIDIA TITAN X (Pascal)
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.052s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.05-20.43.46:869][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.05-20.43.46:869][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.05-20.43.46:964][  0]LogHAL: Display: Platform has ~ 16 GB [17076789248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.05-20.43.46:964][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.05-20.43.46:964][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.05-20.43.46:965][  0]LogInit: Computer: DESKTOP-L8JRU7I
+[2018.11.05-20.43.46:966][  0]LogInit: User: RichS
+[2018.11.05-20.43.46:966][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.11.05-20.43.46:966][  0]LogInit: High frequency timer resolution =3.222659 MHz
+[2018.11.05-20.43.46:966][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.05-20.43.46:966][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.05-20.43.46:966][  0]LogMemory: Process Physical Memory: 101.87 MB used, 101.87 MB peak
+[2018.11.05-20.43.46:967][  0]LogMemory: Process Virtual Memory: 86.02 MB used, 86.02 MB peak
+[2018.11.05-20.43.46:967][  0]LogMemory: Physical Memory: 5810.53 MB used,  10475.16 MB free, 16285.70 MB total
+[2018.11.05-20.43.46:967][  0]LogMemory: Virtual Memory: 4657.53 MB used,  10475.16 MB free, 134217728.00 MB total
+[2018.11.05-20.43.47:003][  0]LogInit: Using OS detected language (en-US).
+[2018.11.05-20.43.47:003][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.05-20.43.47:005][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.05-20.43.47:495][  0]LogStreaming: Display: Took  0.493s to InitEngineTextLocalization.
+[2018.11.05-20.43.47:496][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.05-20.43.47:576][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.05-20.43.47:576][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.05-20.43.47:817][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.05-20.43.47:817][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.05-20.43.47:920][  0]LogD3D11RHI:    0. 'NVIDIA TITAN X (Pascal)' (Feature Level 11_0)
+[2018.11.05-20.43.47:920][  0]LogD3D11RHI:       12147/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.05-20.43.47:922][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.05-20.43.47:922][  0]LogD3D11RHI:       0/0/8142 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.05-20.43.47:923][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.05-20.43.47:934][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.05-20.43.47:934][  0]LogD3D11RHI:     GPU DeviceId: 0x1b00 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.05-20.43.47:934][  0]LogWindows: EnumDisplayDevices:
+[2018.11.05-20.43.47:934][  0]LogWindows:    0. 'NVIDIA TITAN X (Pascal)' (P:1 D:1)
+[2018.11.05-20.43.47:935][  0]LogWindows:    1. 'NVIDIA TITAN X (Pascal)' (P:0 D:1)
+[2018.11.05-20.43.47:935][  0]LogWindows:    2. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2018.11.05-20.43.47:935][  0]LogWindows:    3. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
+[2018.11.05-20.43.47:936][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.05-20.43.47:936][  0]LogD3D11RHI:     Adapter Name: NVIDIA TITAN X (Pascal)
+[2018.11.05-20.43.47:936][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2018.11.05-20.43.47:936][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2018.11.05-20.43.47:936][  0]LogRHI: Texture pool is 8502 MB (70% of 12147 MB)
+[2018.11.05-20.43.48:004][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.05-20.43.48:057][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.05-20.43.48:158][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (L:/Unreal_Projects/myICHU/Intermediate/Shaders/WorkingDirectory/13360/).
+[2018.11.05-20.43.48:158][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RichS/AppData/Local/Temp/UnrealShaderWorkingDir/270FD00B4D7CCEEAB2960695DA45F987/'.
+[2018.11.05-20.43.48:532][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.05-20.43.48:548][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.05-20.43.48:570][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.05-20.43.48:586][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.05-20.43.48:603][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.05-20.43.48:620][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.05-20.43.48:637][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.05-20.43.48:653][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.05-20.43.48:662][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-20.43.48:750][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.05-20.43.48:848][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.05-20.43.48:848][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.05-20.43.48:920][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.05-20.43.48:920][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.05-20.43.48:936][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.05-20.43.48:952][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.05-20.43.48:967][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.05-20.43.49:003][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.05-20.43.49:031][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.05-20.43.49:031][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.05-20.43.49:140][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.05-20.43.49:140][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.05-20.43.49:140][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.05-20.43.50:130][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.05-20.43.50:233][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file L:/Unreal_Projects/myICHU/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file L:/Unreal_Projects/myICHU/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.05-20.43.50:234][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.05-20.43.50:248][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.05-20.43.50:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RichS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.05-20.43.50:261][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.05-20.43.50:261][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.05-20.43.50:293][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.05-20.43.50:294][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.05-20.43.50:295][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.05-20.43.50:382][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2018.11.05-20.43.50:820][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.05-20.43.50:992][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.05-20.43.50:998][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.05-20.43.50:998][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.05-20.43.50:998][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.05-20.43.50:998][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.05-20.43.51:023][  0]LogNetVersion: AndroidProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1322049604)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_FOL_Rocks_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_C_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_ES_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SandBags_MD_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SOW_Cliffside_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_SOW_Dirt_01_DIFF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS/T_WATR_Sewer03_DIF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS_AREA_1/M01_PLST_setTex01_DIF_Mat.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/M_24_SOW_AFN_PROPS_AREA_3/rebar_norm.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogLinker: Warning: Failed to read package file summary, the file "L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" is too small (0 bytes, expected at least 32 bytes)
+[2018.11.05-20.43.52:720][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 1.079850 seconds
+[2018.11.05-20.43.52:727][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.05-20.43.52:727][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.05-20.43.52:727][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.05-20.43.53:822][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.05-20.43.53:836][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.05-20.43.54:018][  0]SourceControl: Source control is disabled
+[2018.11.05-20.43.54:970][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.05-20.43.55:232][  0]LogOcInput: OculusInput pre-init called
+[2018.11.05-20.43.55:356][  0]LogEngine: Initializing Engine...
+[2018.11.05-20.43.55:357][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.05-20.43.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.05-20.43.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.05-20.43.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.05-20.43.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.05-20.43.55:640][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.05-20.43.55:663][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.05-20.43.55:715][  0]LogInit: XAudio2 using 'LCD TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.05-20.43.55:772][  0]LogInit: FAudioDevice initialized.
+[2018.11.05-20.43.55:772][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.05-20.43.55:918][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/RichS/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.05-20.43.55:926][  0]LogInit: Texture streaming: Enabled
+[2018.11.05-20.43.55:979][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.05-20.43.56:024][  0]LogInit: Transaction tracking system initialized
+[2018.11.05-20.43.56:066][  0]BlueprintLog: New page: Editor Load
+[2018.11.05-20.43.56:271][  0]LocalizationService: Localization service is disabled
+[2018.11.05-20.43.56:895][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.05-20.43.56:895][  0]LogCook: Display: Mobile HDR setting 0
+[2018.11.05-20.43.56:895][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.05-20.43.56:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.05-20.43.56:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.05-20.43.56:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.11.05-20.43.56:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.05-20.43.57:104][  0]Cmd: MAP LOAD FILE="L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.05-20.43.57:120][  0]LightingResults: New page: Lighting Build
+[2018.11.05-20.43.57:124][  0]MapCheck: New page: Map Check
+[2018.11.05-20.43.57:124][  0]LightingResults: New page: Lighting Build
+[2018.11.05-20.43.57:156][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:207][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ThirdPersonGameModeICHU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:248][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/' took 0.52s
+[2018.11.05-20.43.57:248][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/HudCharacterTest.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:311][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/TestThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:375][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:409][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/WallRunLeft.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:430][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:504][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:553][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonClimb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:586][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonJump_End.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:625][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:649][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonWallRunLeft.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:673][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPersonWallRunRight.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:691][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:770][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/AnimationsTest/TestThirdPerson_JumpClimb_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:885][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/CameraSwitcherTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:905][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/FrontCameraScreenTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:945][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/fulloptionsMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.57:969][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/gameframework/ichugameinstance.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:002][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/MAKEUP_20170608224327_save.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:051][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ingameMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:084][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/ingameoptionsMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:187][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:643][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/CameraSwitcherTexture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:664][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/cameratoggle/FrontCameraScreenTexture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:909][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Blueprints/JinTPCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:948][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.58:976][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:004][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_WallRunRight.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:032][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:054][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:091][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/TestThirdPersonClimb.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:117][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:152][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:183][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:224][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/animationsredone/Jin_ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:299][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:332][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Body.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:378][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:426][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:468][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/BODY_60100_JinF_col1_S.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:503][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Eye.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:524][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/EYE_JinF00.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:551][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Hair.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:574][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HAIR_JinF_031_col1_D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:606][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HAIR_JinF_031_col1_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:628][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_Head.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:659][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HEAD_Diffuse_001.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:689][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/HEAD_Normal_001.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:715][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/character/Jin/60100_JinF_PhysicsAsset.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:885][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/mainmenuMAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.43.59:961][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/trailertrucktest.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:029][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/SM_Vehicles/SM_MCH_ClubK_Truck.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:062][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/SM_MCH_ClubK_Truck/T_MCH_ClubK_Truck_DIF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:126][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/SM_MCH_ClubK_Truck/T_MCH_ClubK_Truck_NRM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:162][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/material_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:194][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/mainMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:226][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/titlemyichu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.00:295][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/short_versionRelaxing_River_Sounds_-_Peaceful_Forest_River_-_3_Hours_Long_-_HD_1080p_-_Nature_Video.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.01:376][  0]LogAIModule: Creating AISystem for world mainmenuMAP
+[2018.11.05-20.44.01:378][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_streaming1_MAP) is flushing async loading
+[2018.11.05-20.44.01:378][  0]LogStreaming: Display: Flushing async loaders.
+[2018.11.05-20.44.01:450][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_streaming1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.01:473][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_streaming1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.01:509][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/level1_completeMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.01:574][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/gimp_ichu_aploogy_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:142][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/gimp_ichu_aploogy.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:248][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP) is flushing async loading
+[2018.11.05-20.44.02:276][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:292][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alex_terrain_level1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:304][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_alextest1_MAP) is flushing async loading
+[2018.11.05-20.44.02:340][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alextest1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:381][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush4_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:403][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:436][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branchs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:523][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Bush/SM_bush6_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:591][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:666][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree10_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.02:731][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_4.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:014][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree1_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:080][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Material/Master_Material/M_Branch_Material/M_Branch_2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:151][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree6_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:194][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Alex/UE_ASSETS/Meshes/Trees/SM_tree9_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:247][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_03_FoliageType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:280][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_03.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:476][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_alextest1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:901][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Migrated/Content/LuosCaves/Meshes/Props_Rocks/SM_LCave_P_Free_Rock_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:943][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_opgls2_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.03:982][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_COLOR.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:228][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP) is flushing async loading
+[2018.11.05-20.44.06:266][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:484][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/LevelTeleporter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:518][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Material/Telporter2Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:528][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Material/Telporter_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:648][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/StaticMeshes/Cone.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:727][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP_BuiltData.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:800][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:854][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture-png-33.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:889][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Cayon_Rock_opengls2_Mat1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:921][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_DISP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.06:955][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_NORM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:005][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Canyon_Rock_001_SD/Canyon_Rock_001_ROUGH.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:042][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/big.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:078][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Geometry/Textures/brick-texture_Mat_Inst1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:123][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_Big.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:141][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_256_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:183][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_256.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:201][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_long_Mat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:217][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/AlternatingBrick_medium_Mat_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:262][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_Opengls2_MatBig_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:280][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_Opengls2_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:324][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_COLOR.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:377][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_DISP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:415][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_NORM.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:456][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Textures/Azulejos_003_SD/Azulejos_003_ROUGH.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:728][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/levelcompleteMENU.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:798][  0]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.07:817][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
+[2018.11.05-20.44.07:817][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset.
+[2018.11.05-20.44.07:817][  0]LoadErrors: Error: /Game/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys : Can't find file for asset. /Engine/EngineSounds/uiSound
+[2018.11.05-20.44.07:818][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
+[2018.11.05-20.44.07:818][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading L:/Unreal_Projects/myICHU/Content/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys.uasset.
+[2018.11.05-20.44.07:819][  0]LoadErrors: Error: /Game/ThirdPersonBP/y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys : Can't find file for asset. /Engine/EngineSounds/uiSound
+[2018.11.05-20.44.08:049][  0]LogLinker: Warning: Can't find file '/Engine/EngineSounds/uiSound'
+[2018.11.05-20.44.08:049][  0]LoadErrors: Failed to load /Engine/EngineSounds/uiSound.uiSound Referenced by y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys
+[2018.11.05-20.44.08:049][  0]LogLinker: Warning: Can't find file for asset '/Engine/EngineSounds/uiSound' while loading NULL.
+[2018.11.05-20.44.08:049][  0]LoadErrors: Failed to load /Engine/EngineSounds/uiSound.uiSound Referenced by y2mate_com_-_carlos_vives_shakira_la_bicicleta_-UV0QGLmYys
+[2018.11.05-20.44.08:623][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.05-20.44.08:676][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.05-20.44.08:857][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 180.151ms to complete.
+[2018.11.05-20.44.08:857][  0]LogFileHelpers: Loading map 'mainmenuMAP' took 11.753
+[2018.11.05-20.44.09:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-20.44.09:125][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-20.44.09:135][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-20.44.09:147][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.05-20.44.09:202][  0]LogCollectionManager: Loaded 0 collections in 0.006129 seconds
+[2018.11.05-20.44.09:320][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Saved/Collections/' took 0.01s
+[2018.11.05-20.44.09:320][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/Developers/RichS/Collections/' took 0.01s
+[2018.11.05-20.44.09:320][  0]LogFileCache: Scanning file cache for directory 'L:/Unreal_Projects/myICHU/Content/Collections/' took 0.01s
+[2018.11.05-20.44.09:320][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.05-20.44.09:363][  0]LogContentBrowser: Native class hierarchy populated in 0.0369 seconds. Added 2572 classes and 603 folders.
+[2018.11.05-20.44.09:388][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.05-20.44.09:945][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.05-20.44.09:971][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.05-20.44.10:069][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2018.11.05-20.44.10:433][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.05-20.44.10:435][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.05-20.44.10:449][  0]LogSlate: Took 0.007114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.05-20.44.10:626][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.11.05-20.44.10:663][  0]LogRenderer: Reallocating scene render targets to support 1128x696 Format 9 NumSamples 1 (Frame:1).
+[2018.11.05-20.44.10:757][  0]LogSlate: Took 0.008710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.05-20.44.11:053][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.11.05-20.44.11:054][  0]LogLoad: (Engine Initialization) Total time: 29.09 seconds
+[2018.11.05-20.44.11:054][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.05-20.44.11:067][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.05-20.44.11:196][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.11.05-20.44.11:218][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-20.44.12:556][  6]LogAssetRegistry: Asset discovery search completed in 22.1977 seconds
+[2018.11.05-20.44.12:559][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.05-20.44.12:559][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2018.11.05-20.44.23:667][ 65]LogSlate: Window 'Message Log' being destroyed
+[2018.11.05-20.44.23:675][ 65]LogSlate: Window 'Message Log' being destroyed
+[2018.11.05-20.44.25:511][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.44.25:664][ 85]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.05-20.44.26:599][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/M_SOW_Terrain_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.26:708][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Textures/GrandCanyon/Environment/T_SOW_Dirt_01_DIFF.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:176][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/CommandBase.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:355][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Material/CommandRoom/CommandRoomConcrete.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:584][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid1_DSR_Obstacle_Grid_M24SOW_Zone_1_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:602][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/material_0.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:611][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid2_DSR_Obstacle_Grid_M24SOW_Zone_2_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:620][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/grandcanyon_custom_map_grid3_DSR_Obstacle_Grid_M24SOW_Zone_3_mo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.27:740][ 85]LogLinker: Warning: Asset 'L:/Unreal_Projects/myICHU/Content/Dangerous32/StaticMeshes/Tent.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.05-20.44.31:872][ 85]LogAIModule: Creating AISystem for world template1
+[2018.11.05-20.44.36:132][ 85]LogAssetEditorManager: Opening Asset editor for World /Game/Dangerous32/Maps/template1.template1
+[2018.11.05-20.44.36:182][ 85]Cmd: MAP LOAD FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.05-20.44.36:182][ 85]LightingResults: New page: Lighting Build
+[2018.11.05-20.44.36:183][ 85]LoadErrors: New page: Loading map: template1.umap
+[2018.11.05-20.44.36:186][ 85]MapCheck: New page: Map Check
+[2018.11.05-20.44.36:186][ 85]LightingResults: New page: Lighting Build
+[2018.11.05-20.45.08:799][ 85]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.05-20.45.09:215][ 85]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.05-20.45.09:498][ 85]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 282.406ms to complete.
+[2018.11.05-20.45.09:503][ 85]LogFileHelpers: Loading map 'template1' took 33.322
+[2018.11.05-20.45.09:669][ 85]LogFileCache: Retrieving MD5 hashes for directory 'L:/Unreal_Projects/myICHU/Content/' took 58.58s
+[2018.11.05-20.45.24:099][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.45.28:853][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.45.29:118][266]LogRenderer: Reallocating scene render targets to support 1132x696 Format 9 NumSamples 1 (Frame:2188).
+[2018.11.05-20.45.29:177][267]LogRenderer: Reallocating scene render targets to support 1152x696 Format 9 NumSamples 1 (Frame:2190).
+[2018.11.05-20.45.29:237][268]LogRenderer: Reallocating scene render targets to support 1200x696 Format 9 NumSamples 1 (Frame:2192).
+[2018.11.05-20.45.29:295][269]LogRenderer: Reallocating scene render targets to support 1224x696 Format 9 NumSamples 1 (Frame:2194).
+[2018.11.05-20.45.29:355][270]LogRenderer: Reallocating scene render targets to support 1244x696 Format 9 NumSamples 1 (Frame:2196).
+[2018.11.05-20.45.29:415][271]LogRenderer: Reallocating scene render targets to support 1260x696 Format 9 NumSamples 1 (Frame:2198).
+[2018.11.05-20.45.29:458][272]LogRenderer: Reallocating scene render targets to support 1272x696 Format 9 NumSamples 1 (Frame:2200).
+[2018.11.05-20.45.29:505][273]LogRenderer: Reallocating scene render targets to support 1288x696 Format 9 NumSamples 1 (Frame:2202).
+[2018.11.05-20.45.29:557][274]LogRenderer: Reallocating scene render targets to support 1316x696 Format 9 NumSamples 1 (Frame:2204).
+[2018.11.05-20.45.29:713][275]LogRenderer: Reallocating scene render targets to support 1340x696 Format 9 NumSamples 1 (Frame:2206).
+[2018.11.05-20.45.29:797][276]LogRenderer: Reallocating scene render targets to support 1388x696 Format 9 NumSamples 1 (Frame:2208).
+[2018.11.05-20.45.29:862][277]LogRenderer: Reallocating scene render targets to support 1416x696 Format 9 NumSamples 1 (Frame:2210).
+[2018.11.05-20.45.29:935][278]LogRenderer: Reallocating scene render targets to support 1428x696 Format 9 NumSamples 1 (Frame:2212).
+[2018.11.05-20.45.31:832][483]LogRenderer: Reallocating scene render targets to support 1428x700 Format 9 NumSamples 1 (Frame:2390).
+[2018.11.05-20.45.31:877][484]LogRenderer: Reallocating scene render targets to support 1428x708 Format 9 NumSamples 1 (Frame:2392).
+[2018.11.05-20.45.31:929][485]LogRenderer: Reallocating scene render targets to support 1428x724 Format 9 NumSamples 1 (Frame:2394).
+[2018.11.05-20.45.31:987][486]LogRenderer: Reallocating scene render targets to support 1428x740 Format 9 NumSamples 1 (Frame:2396).
+[2018.11.05-20.45.32:047][487]LogRenderer: Reallocating scene render targets to support 1428x752 Format 9 NumSamples 1 (Frame:2398).
+[2018.11.05-20.45.32:092][488]LogRenderer: Reallocating scene render targets to support 1428x768 Format 9 NumSamples 1 (Frame:2400).
+[2018.11.05-20.45.32:134][489]LogRenderer: Reallocating scene render targets to support 1428x772 Format 9 NumSamples 1 (Frame:2402).
+[2018.11.05-20.45.32:176][490]LogRenderer: Reallocating scene render targets to support 1428x776 Format 9 NumSamples 1 (Frame:2404).
+[2018.11.05-20.45.32:369][503]LogRenderer: Reallocating scene render targets to support 1428x780 Format 9 NumSamples 1 (Frame:2408).
+[2018.11.05-20.45.39:296][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.47.46:688][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.48.02:521][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.49.00:856][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.49.04:320][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.50.02:680][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandcanyon_custom_map_grid1_DSR_Obstacle_Grid_M24SOW_Zone_1_mo)
+[2018.11.05-20.50.06:578][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandcanyon_custom_map_grid2_DSR_Obstacle_Grid_M24SOW_Zone_2_mo)
+[2018.11.05-20.53.00:695][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-20.56.47:363][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.57.40:188][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CommandBase2)
+[2018.11.05-20.57.46:446][666]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (CommandBase2)
+[2018.11.05-20.57.46:481][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-20.57.47:180][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grandcanyon_custom_map_grid2_DSR_Obstacle_Grid_M24SOW_Zone_2_mo)
+[2018.11.05-20.57.49:089][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.58.10:585][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-20.58.41:179][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CommandBase2)
+[2018.11.05-20.59.58:177][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.00.52:903][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.02.57:732][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.05-21.03.16:289][603]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto15B1D127046517298FA699890986DEE5F.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto1.umap'
+[2018.11.05-21.03.16:374][603]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 18.723
+[2018.11.05-21.03.16:374][603]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 18.723
+[2018.11.05-21.05.42:138][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.08.22:098][462]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-21.08.24:012][647]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.05-21.08.24:793][647]EditorErrors: Warning: No assets to check in!
+[2018.11.05-21.08.37:854][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.17.19:134][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.18.27:996][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.18.55:555][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CommandBase)
+[2018.11.05-21.20.34:758][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.20.57:003][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.21.13:375][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.22.04:425][427]LogActorFactory: Actor Factory created m01_bld_s2x1_009_As_RDM_LODH
+[2018.11.05-21.22.06:274][574]LogActorFactory: Actor Factory created m01_bld_s2x1_009_As_RDM_LODH
+[2018.11.05-21.23.10:272][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.23.10:474][ 87]LogActorFactory: Actor Factory created m01_bld_s2x1_009_As_RDM_LODH
+[2018.11.05-21.23.11:441][174]LogActorFactory: Actor Factory created m01_bld_s2x1_009_As_RDM_LODH
+[2018.11.05-21.24.10:803][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.24.11:406][698]LogActorFactory: Actor Factory created SM_ENV_SOW_STRUCT_Scaffold_Wall_02
+[2018.11.05-21.24.12:345][759]LogActorFactory: Actor Factory created SM_ENV_SOW_STRUCT_Scaffold_Wall_02
+[2018.11.05-21.24.42:932][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.24.43:166][754]LogActorFactory: Actor Factory created SM_DSR_ZNT_STRUCT_Fence_4x_Wall
+[2018.11.05-21.24.43:885][813]LogActorFactory: Actor Factory created SM_DSR_ZNT_STRUCT_Fence_4x_Wall
+[2018.11.05-21.25.05:109][735]Cmd: EDIT COPY
+[2018.11.05-21.25.05:338][749]Cmd: EDIT PASTE
+[2018.11.05-21.25.07:842][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.25.15:221][686]Cmd: EDIT COPY
+[2018.11.05-21.25.15:446][711]Cmd: EDIT PASTE
+[2018.11.05-21.25.20:317][185]Cmd: EDIT COPY
+[2018.11.05-21.25.20:719][218]Cmd: EDIT PASTE
+[2018.11.05-21.26.08:648][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.26.47:795][708]LogActorFactory: Actor Factory created SM_SOW_Cliffset_02_a
+[2018.11.05-21.26.48:951][795]LogActorFactory: Actor Factory created SM_SOW_Cliffset_02_a
+[2018.11.05-21.27.40:233][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.27.40:503][824]LogActorFactory: Actor Factory created SM_SOW_Cliffset_01_a
+[2018.11.05-21.27.41:814][930]LogActorFactory: Actor Factory created SM_SOW_Cliffset_01_a
+[2018.11.05-21.28.02:630][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (m01_bld_s2x1_009_As_RDM_LODH4)
+[2018.11.05-21.28.22:344][207]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.11.05-21.28.24:751][409]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.05-21.28.27:728][688]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.05-21.28.30:420][905]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.05-21.28.34:135][192]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.11.05-21.28.41:610][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (m01_bld_s2x1_009_As_RDM_LODH3)
+[2018.11.05-21.29.36:657][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.30.37:393][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.31.33:508][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.05-21.31.45:470][579]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_Auto2A72349A044DA15A65923D180315E377F.tmp' to 'L:/Unreal_Projects/myICHU/Saved/Autosaves/Game/Dangerous32/Maps/template1_Auto2.umap'
+[2018.11.05-21.31.45:568][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dangerous32/Maps/template1' took 12.101
+[2018.11.05-21.31.45:568][579]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.101
+[2018.11.05-21.32.11:320][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-21.32.13:161][517]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.05-21.32.13:786][517]EditorErrors: Warning: No assets to check in!
+[2018.11.05-21.32.15:839][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.32.16:000][692]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-21.32.16:020][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1" FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.05-21.32.25:955][692]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template146A725E1447799B43031B38679C2C882.tmp' to 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1.umap'
+[2018.11.05-21.32.26:332][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dangerous32/Maps/template1_BuiltData" FILE="L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1_BuiltData.uasset" SILENT=true
+[2018.11.05-21.33.22:845][692]LogSavePackage: Moving 'L:/Unreal_Projects/myICHU/Saved/template1_BuiltDataF03FE3F945261373686190A40C0716A7.tmp' to 'L:/Unreal_Projects/myICHU/Content/Dangerous32/Maps/template1_BuiltData.uasset'
+[2018.11.05-21.34.34:529][565]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.11.05-21.35.02:146][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-21.36.49:835][ 93]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.05-21.37.31:569][ 93]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.05-21.38.51:474][ 93]LogSourceControl: commit successful: [Alex-Testing 9fb126d] updated map and added mesh
+[2018.11.05-21.38.51:608][ 93]SourceControl: [Alex-Testing 9fb126d] updated map and added mesh
+[2018.11.05-21.38.51:608][ 93]SourceControl:  2 files changed, 3 insertions(+), 3 deletions(-)
+[2018.11.05-21.38.51:634][ 93]SourceControl: Commited [Alex-Testing 9fb126d] updated map and added mesh.
