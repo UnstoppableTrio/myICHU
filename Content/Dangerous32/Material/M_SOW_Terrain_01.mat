@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41d27332c598d5fe64fc6978c9c08c5d0edec542aa1158a059a378cef1f5c9dd
-size 296
+Diffuse=T_SOW_Grass_03_DIFF
+Normal=T_SOW_Cliffside_01_NRM
+Other[0]=T_SOW_Dirt_01_NRM
+Other[1]=T_SOW_Cliffside_02_NRM
+Other[2]=T_SOW_Rocks_02_NRM
+Other[3]=T_SOW_Grass_03_NRM
+Other[4]=T_SOW_Cliffside_01_DIFF
+Other[5]=T_SOW_Dirt_01_DIFF
+Other[6]=T_SOW_Cliffside_02_DIFF
+Other[7]=T_SOW_Rocks_02_DIFF
