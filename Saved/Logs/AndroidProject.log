@@ -3189,3 +3189,145 @@ LogInit: Object subsystem initialized
 [2018.11.05-23.44.30:567][692]LogShaderCompilers: Display: Shaders left to compile 28
 [2018.11.05-23.44.31:136][708]LogShaderCompilers: Display: Shaders left to compile 18
 [2018.11.05-23.44.32:641][750]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.06-00.03.51:838][430]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.06-00.03.59:719][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.06-00.04.00:783][849]LogEditorViewport: Clicking on Actor (LMB): JinTPCharacter_C (JinTPCharacter)
+[2018.11.06-00.04.05:739][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-00.04.05:884][ 26]LogLinux: Scale at X=0.000000, Y=24.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.05:885][ 26]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.05:892][ 26]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.05:966][ 26]LogLinux: Setting swap interval to 'Immediate'
+[2018.11.06-00.04.06:490][ 26]LogLinux: Scale at X=0.000000, Y=24.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.06:490][ 26]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.06:491][ 26]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.06:578][ 26]LogLinux: Setting swap interval to 'Immediate'
+[2018.11.06-00.04.06:895][ 26]LogSavePackage: Moving '../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Saved/level1_intro_foundation1_MAP4FC4AFE508D64338507F6228BD7EDA31.tmp' to '../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP.umap'
+[2018.11.06-00.04.06:933][ 26]LogLinux: Scale at X=0.000000, Y=24.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.06:933][ 26]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.06:934][ 26]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.06:972][ 26]LogLinux: Setting swap interval to 'Immediate'
+[2018.11.06-00.04.08:793][ 26]LogSavePackage: Moving '../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Saved/level1_intro_foundation1_MAP_Bui4FC7938108D6433850F44C82BD8A8B44.tmp' to '../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/ThirdPersonBP/Maps/level1/level1_intro_foundation1_MAP_BuiltData.uasset'
+[2018.11.06-00.04.10:173][ 70]LogLinux: Scale at X=2400.500000, Y=187.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.10:237][ 72]LogLinux: Setting swap interval to 'Immediate'
+[2018.11.06-00.04.13:146][336]LogLinux: Scale at X=0.000000, Y=24.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.13:146][336]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.13:147][336]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.04.13:358][349]LogLinux: Setting swap interval to 'Immediate'
+[2018.11.06-00.04.35:726][899]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave A_Ability_FireWaveCast01...
+[2018.11.06-00.04.35:726][899]LogTemp: Couldn't find amount to resample to.
+[2018.11.06-00.04.35:794][899]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 995092 to 532272 while cooking SoundWave /Game/Assets/Sounds/Abilities/A_Ability_FireWaveCast01.A_Ability_FireWaveCast01.
+[2018.11.06-00.04.35:811][899]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave A_Ability_FireWavePowerup_02...
+[2018.11.06-00.04.35:812][899]LogTemp: Couldn't find amount to resample to.
+[2018.11.06-00.04.35:877][899]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 576000 while cooking SoundWave /Game/Assets/Sounds/Abilities/A_Ability_FireWavePowerup_02.A_Ability_FireWavePowerup_02.
+[2018.11.06-00.04.35:878][899]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave A_Ability_FireWavePowerup_01...
+[2018.11.06-00.04.35:878][899]LogTemp: Couldn't find amount to resample to.
+[2018.11.06-00.04.35:943][899]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 576000 while cooking SoundWave /Game/Assets/Sounds/Abilities/A_Ability_FireWavePowerup_01.A_Ability_FireWavePowerup_01.
+[2018.11.06-00.04.35:962][899]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave A_Ability_MeteorImpact02...
+[2018.11.06-00.04.35:962][899]LogTemp: Couldn't find amount to resample to.
+[2018.11.06-00.04.36:023][899]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave A_Ability_MeteorImpact01...
+[2018.11.06-00.04.36:024][899]LogTemp: Couldn't find amount to resample to.
+[2018.11.06-00.04.36:103][899]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave A_Ability_TimeSlow01...
+[2018.11.06-00.04.36:103][899]LogTemp: Couldn't find amount to resample to.
+[2018.11.06-00.04.36:193][899]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 844596 to 670336 while cooking SoundWave /Game/Assets/Sounds/Abilities/A_Ability_TimeSlow01.A_Ability_TimeSlow01.
+[2018.11.06-00.04.36:200][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01'
+[2018.11.06-00.04.36:200][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Box_Confirm.uasset.
+[2018.11.06-00.04.36:200][899]LoadErrors: Error: /Game/Assets/Sounds/UI/A_UI_Box_Confirm : Can't find file for asset. /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01
+[2018.11.06-00.04.36:202][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02'
+[2018.11.06-00.04.36:202][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Box_Confirm.uasset.
+[2018.11.06-00.04.36:202][899]LoadErrors: Error: /Game/Assets/Sounds/UI/A_UI_Box_Confirm : Can't find file for asset. /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02
+[2018.11.06-00.04.36:204][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03'
+[2018.11.06-00.04.36:204][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Box_Confirm.uasset.
+[2018.11.06-00.04.36:205][899]LoadErrors: Error: /Game/Assets/Sounds/UI/A_UI_Box_Confirm : Can't find file for asset. /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03
+[2018.11.06-00.04.36:205][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01'
+[2018.11.06-00.04.36:205][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Box_Confirm.uasset.
+[2018.11.06-00.04.36:205][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02'
+[2018.11.06-00.04.36:205][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Box_Confirm.uasset.
+[2018.11.06-00.04.36:205][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03'
+[2018.11.06-00.04.36:206][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Box_Confirm.uasset.
+[2018.11.06-00.04.36:207][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01'
+[2018.11.06-00.04.36:207][899]LoadErrors: Failed to load /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01.A_Hammer_Impact01 Referenced by SoundNodeWavePlayer_0
+[2018.11.06-00.04.36:207][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01' while loading NULL.
+[2018.11.06-00.04.36:207][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02'
+[2018.11.06-00.04.36:207][899]LoadErrors: Failed to load /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02.A_Hammer_Impact02 Referenced by SoundNodeWavePlayer_1
+[2018.11.06-00.04.36:207][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02' while loading NULL.
+[2018.11.06-00.04.36:208][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03'
+[2018.11.06-00.04.36:208][899]LoadErrors: Failed to load /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03.A_Hammer_Impact03 Referenced by SoundNodeWavePlayer_2
+[2018.11.06-00.04.36:208][899]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03' while loading NULL.
+[2018.11.06-00.04.36:208][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01'
+[2018.11.06-00.04.36:208][899]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact01.A_Hammer_Impact01'
+[2018.11.06-00.04.36:208][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02'
+[2018.11.06-00.04.36:208][899]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact02.A_Hammer_Impact02'
+[2018.11.06-00.04.36:208][899]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03'
+[2018.11.06-00.04.36:208][899]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Sounds/Weapons/Hammer/A_Hammer_Impact03.A_Hammer_Impact03'
+[2018.11.06-00.04.41:705][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step01'
+[2018.11.06-00.04.41:705][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step01' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:705][170]LoadErrors: Error: /Game/Assets/Sounds/UI/A_UI_Hover : Can't find file for asset. /Game/Assets/Sounds/Character/A_Character_Step01
+[2018.11.06-00.04.41:707][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step02'
+[2018.11.06-00.04.41:707][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step02' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:707][170]LoadErrors: Error: /Game/Assets/Sounds/UI/A_UI_Hover : Can't find file for asset. /Game/Assets/Sounds/Character/A_Character_Step02
+[2018.11.06-00.04.41:709][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step03'
+[2018.11.06-00.04.41:709][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step03' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:710][170]LoadErrors: Error: /Game/Assets/Sounds/UI/A_UI_Hover : Can't find file for asset. /Game/Assets/Sounds/Character/A_Character_Step03
+[2018.11.06-00.04.41:712][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step04'
+[2018.11.06-00.04.41:712][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step04' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:712][170]LoadErrors: Error: /Game/Assets/Sounds/UI/A_UI_Hover : Can't find file for asset. /Game/Assets/Sounds/Character/A_Character_Step04
+[2018.11.06-00.04.41:714][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step05'
+[2018.11.06-00.04.41:714][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step05' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:714][170]LoadErrors: Error: /Game/Assets/Sounds/UI/A_UI_Hover : Can't find file for asset. /Game/Assets/Sounds/Character/A_Character_Step05
+[2018.11.06-00.04.41:715][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step01'
+[2018.11.06-00.04.41:715][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step01' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:715][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step02'
+[2018.11.06-00.04.41:715][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step02' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:715][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step03'
+[2018.11.06-00.04.41:715][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step03' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:715][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step04'
+[2018.11.06-00.04.41:716][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step04' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:716][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step05'
+[2018.11.06-00.04.41:716][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step05' while loading ../../../../Documents/Unreal Projects/AndroidProject 4.20 - 2/Content/Assets/Sounds/UI/A_UI_Hover.uasset.
+[2018.11.06-00.04.41:718][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step01'
+[2018.11.06-00.04.41:718][170]LoadErrors: Failed to load /Game/Assets/Sounds/Character/A_Character_Step01.A_Character_Step01 Referenced by SoundNodeWavePlayer_0
+[2018.11.06-00.04.41:718][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step01' while loading NULL.
+[2018.11.06-00.04.41:718][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step02'
+[2018.11.06-00.04.41:718][170]LoadErrors: Failed to load /Game/Assets/Sounds/Character/A_Character_Step02.A_Character_Step02 Referenced by SoundNodeWavePlayer_1
+[2018.11.06-00.04.41:718][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step02' while loading NULL.
+[2018.11.06-00.04.41:719][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step03'
+[2018.11.06-00.04.41:719][170]LoadErrors: Failed to load /Game/Assets/Sounds/Character/A_Character_Step03.A_Character_Step03 Referenced by SoundNodeWavePlayer_2
+[2018.11.06-00.04.41:719][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step03' while loading NULL.
+[2018.11.06-00.04.41:719][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step04'
+[2018.11.06-00.04.41:719][170]LoadErrors: Failed to load /Game/Assets/Sounds/Character/A_Character_Step04.A_Character_Step04 Referenced by SoundNodeWavePlayer_3
+[2018.11.06-00.04.41:719][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step04' while loading NULL.
+[2018.11.06-00.04.41:720][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step05'
+[2018.11.06-00.04.41:720][170]LoadErrors: Failed to load /Game/Assets/Sounds/Character/A_Character_Step05.A_Character_Step05 Referenced by SoundNodeWavePlayer_4
+[2018.11.06-00.04.41:720][170]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sounds/Character/A_Character_Step05' while loading NULL.
+[2018.11.06-00.04.41:720][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step01'
+[2018.11.06-00.04.41:720][170]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Sounds/Character/A_Character_Step01.A_Character_Step01'
+[2018.11.06-00.04.41:720][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step02'
+[2018.11.06-00.04.41:720][170]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Sounds/Character/A_Character_Step02.A_Character_Step02'
+[2018.11.06-00.04.41:721][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step03'
+[2018.11.06-00.04.41:721][170]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Sounds/Character/A_Character_Step03.A_Character_Step03'
+[2018.11.06-00.04.41:721][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step04'
+[2018.11.06-00.04.41:721][170]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Sounds/Character/A_Character_Step04.A_Character_Step04'
+[2018.11.06-00.04.41:721][170]LogLinker: Warning: Can't find file '/Game/Assets/Sounds/Character/A_Character_Step05'
+[2018.11.06-00.04.41:721][170]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Assets/Sounds/Character/A_Character_Step05.A_Character_Step05'
+[2018.11.06-00.04.48:715][379]LogSlate: Took 0.000628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.06-00.05.18:369][235]LogLinux: Scale at X=0.000000, Y=24.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.18:369][235]LogLinux: Scale at X=2895.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.18:372][235]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.18:465][235]LogLinux: Setting swap interval to 'Immediate'
+[2018.11.06-00.05.28:817][235]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.06-00.05.28:846][235]LogLinux: Scale at X=0.000000, Y=24.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.28:846][235]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.28:865][235]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.28:909][235]LogLinux: Setting swap interval to 'Immediate'
+[2018.11.06-00.05.29:563][235]LogLinux: Scale at X=0.000000, Y=24.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.29:563][235]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.29:569][235]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.29:672][235]LogLinux: Setting swap interval to 'Immediate'
+[2018.11.06-00.05.31:248][235]LogSourceControl: commit successful: [ldk_bagel_testing 6f3f45b3] Fixing git commit from UE4
+[2018.11.06-00.05.31:756][235]SourceControl: [ldk_bagel_testing 6f3f45b3] Fixing git commit from UE4
+[2018.11.06-00.05.31:756][235]SourceControl:  2 files changed, 3 insertions(+), 3 deletions(-)
+[2018.11.06-00.05.31:784][235]LogLinux: Scale at X=0.000000, Y=24.000000: 1.000000 (monitor=#1, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.31:785][235]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.31:785][235]LogLinux: Scale at X=3200.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.11.06-00.05.31:833][235]SourceControl: Commited [ldk_bagel_testing 6f3f45b3] Fixing git commit from UE4.
+[2018.11.06-00.05.32:070][239]LogLinux: Setting swap interval to 'Immediate'
