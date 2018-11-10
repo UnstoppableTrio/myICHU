@@ -5,18 +5,12 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "AndroidProject",
+			"Name": "myICHU",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine"
 			]
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "GLTFImporter",
-			"Enabled": true
 		}
 	]
 }

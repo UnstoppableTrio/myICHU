@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class AndroidProjectTarget : TargetRules
+public class myICHUTarget : TargetRules
 {
-	public AndroidProjectTarget(TargetInfo Target) : base(Target)
+	public myICHUTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "AndroidProject" } );
+		ExtraModuleNames.AddRange( new string[] { "myICHU" } );
 	}
 }

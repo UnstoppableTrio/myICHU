@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class AndroidProject : ModuleRules
+public class myICHU : ModuleRules
 {
-	public AndroidProject(ReadOnlyTargetRules Target) : base(Target)
+	public myICHU(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

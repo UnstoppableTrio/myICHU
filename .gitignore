@@ -1,14 +1,14 @@
 # Individual files from LDKBagel
-AndroidProject.code-workspace
-AndroidProject.pro
-AndroidProject.workspace
-AndroidProjectCodeCompletionFolders.txt
-AndroidProjectCodeLitePreProcessor.txt
-AndroidProjectConfig.pri
-AndroidProjectDefines.pri
-AndroidProjectHeader.pri
-AndroidProjectIncludes.pri
-AndroidProjectSource.pri
+myICHU.code-workspace
+myICHU.pro
+myICHU.workspace
+myICHUCodeCompletionFolders.txt
+myICHUCodeLitePreProcessor.txt
+myICHUConfig.pri
+myICHUDefines.pri
+myICHUHeader.pri
+myICHUIncludes.pri
+myICHUSource.pri
 CMakeLists.txt
 Makefile
 
@@ -72,15 +72,15 @@ Saved/Config/CrashReportClient/UE4CC-Linux-0002F14808D63F880E15459679DFDE5D/Cras
 Saved/Config/LevelState/610753631.json
 Saved/Config/Linux/EditorPerProjectUserSettings.ini	
 Saved/Config/WorldState/610753631.json
-Saved/Logs/AndroidProject-backup-2018.10.29-00.02.13.log
-Saved/Logs/AndroidProject-backup-2018.10.29-01.13.08.log
-Saved/Logs/AndroidProject-backup-2018.10.29-01.45.26.log
-Saved/Logs/AndroidProject-backup-2018.10.31-21.40.22.log
-Saved/Logs/AndroidProject-backup-2018.10.31-21.42.47.log
-Saved/Logs/AndroidProject-backup-2018.10.31-23.17.51.log
-Saved/Logs/AndroidProject-backup-2018.10.31-23.24.50.log
-Saved/Logs/AndroidProject-backup-2018.11.01-00.26.28.log
-Saved/Logs/AndroidProject.log	
+Saved/Logs/myICHU-backup-2018.10.29-00.02.13.log
+Saved/Logs/myICHU-backup-2018.10.29-01.13.08.log
+Saved/Logs/myICHU-backup-2018.10.29-01.45.26.log
+Saved/Logs/myICHU-backup-2018.10.31-21.40.22.log
+Saved/Logs/myICHU-backup-2018.10.31-21.42.47.log
+Saved/Logs/myICHU-backup-2018.10.31-23.17.51.log
+Saved/Logs/myICHU-backup-2018.10.31-23.24.50.log
+Saved/Logs/myICHU-backup-2018.11.01-00.26.28.log
+Saved/Logs/myICHU.log	
 
 
 
@@ -88,17 +88,17 @@ Saved/Logs/AndroidProject.log
 .idea/
 .kdev4/
 .vscode/
-AndroidProject.code-workspace
-AndroidProject.kdev4
-AndroidProject.pro
-AndroidProject.workspace
-AndroidProjectCodeCompletionFolders.txt
-AndroidProjectCodeLitePreProcessor.txt
-AndroidProjectConfig.pri
-AndroidProjectDefines.pri
-AndroidProjectHeader.pri
-AndroidProjectIncludes.pri
-AndroidProjectSource.pri
+myICHU.code-workspace
+myICHU.kdev4
+myICHU.pro
+myICHU.workspace
+myICHUCodeCompletionFolders.txt
+myICHUCodeLitePreProcessor.txt
+myICHUConfig.pri
+myICHUDefines.pri
+myICHUHeader.pri
+myICHUIncludes.pri
+myICHUSource.pri
 CMakeLists.txt
 Makefile
 Saved/Config/Linux/Engine.ini
@@ -145,7 +145,7 @@ Saved/*
 
 CMakeFiles/
 
-AndroidProject\.workspace\.layout
+myICHU\.workspace\.layout
 
 cmake_install\.cmake
 
@@ -153,6 +153,7 @@ UE4\.layout
 
 CMakeCache\.txt
 
-AndroidProject_4_20___2\.cbp
+myICHU_4_20___2\.cbp
 
 UE4\.cbp
+

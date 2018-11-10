@@ -7,7 +7,7 @@
 /**
  * 
  */
-class ANDROIDPROJECT_API MyClass
+class MYICHU_API MyClass
 {
 public:
 	MyClass();
