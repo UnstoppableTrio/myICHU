@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0003A8ED-2D0B-1404-002E-020F927983B9}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "myICHU",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
