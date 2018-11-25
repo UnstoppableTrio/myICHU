@@ -7,7 +7,7 @@
 #include "ICHUBlueprintFunctionLibrary.generated.h"
 
 /**
- * Game-specific blueprint library, Funtions aquired from Epic's ActionRPG sample
+ * Game-specific blueprint library, adds loading screen functions.
  */
 
 UCLASS()
