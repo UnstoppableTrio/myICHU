@@ -11,7 +11,12 @@
 			"AdditionalDependencies": [
 				"Engine"
 			]
-		}
+		},
+        {
+        	"Name": "myICHULoadingScreen",
+        	"Type": "ClientOnly",
+        	"LoadingPhase": "PreLoadingScreen"
+        }
 	],
 	"Plugins": [
 		{

@@ -2,6 +2,9 @@
 
 #pragma once
 
+#include "UObject/PrimaryAssetId.h"
+#include "/home/estebagel/UE_4.20-unstoppable/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayEffectTypes.h"
+#include "/home/estebagel/UE_4.20-unstoppable/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/Abilities/GameplayAbilityTargetTypes.h"
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "ICHUBlueprintFunctionLibrary.generated.h"
@@ -11,7 +14,7 @@
  */
 
 UCLASS()
-class MYICHU_API UICHUBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
+class UICHUBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 

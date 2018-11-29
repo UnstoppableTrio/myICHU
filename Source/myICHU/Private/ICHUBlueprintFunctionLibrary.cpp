@@ -1,30 +1,28 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "ICHUBlueprintFunctionLibrary.h"
 #include "myICHU.h"
-#include "ICHUBlueprintFunctionLibrary.h"
-#include "ActionRPGLoadingScreen.h"
+#include "../../myICHULoadingScreen/Public/myICHULoadingScreen.h"
 
 
-URPGBlueprintLibrary::URPGBlueprintLibrary(const FObjectInitializer& ObjectInitializer)
+UICHUBlueprintLibrary::UICHUBlueprintLibrary(const FObjectInitializer& ObjectInitializer)
         : Super(ObjectInitializer)
 {
 }
 
-void URPGBlueprintLibrary::PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime)
+void UICHUBlueprintLibrary::PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime)
 {
-    IActionRPGLoadingScreenModule& LoadingScreenModule = IActionRPGLoadingScreenModule::Get();
+    ImyICHULoadingScreenModule& LoadingScreenModule = ImyICHULoadingScreenModule::Get();
     LoadingScreenModule.StartInGameLoadingScreen(bPlayUntilStopped, PlayTime);
 }
 
-void URPGBlueprintLibrary::StopLoadingScreen()
+void UICHUBlueprintLibrary::StopLoadingScreen()
 {
-    IActionRPGLoadingScreenModule& LoadingScreenModule = IActionRPGLoadingScreenModule::Get();
+    ImyICHULoadingScreenModule& LoadingScreenModule = ImyICHULoadingScreenModule::Get();
     LoadingScreenModule.StopInGameLoadingScreen();
 }
 
-bool URPGBlueprintLibrary::IsInEditor()
+bool UICHUBlueprintLibrary::IsInEditor()
 {
     return GIsEditor;
 }
