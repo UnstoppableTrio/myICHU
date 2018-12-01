@@ -2,9 +2,6 @@
 
 #pragma once
 
-#include "UObject/PrimaryAssetId.h"
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayEffectTypes.h"
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/Abilities/GameplayAbilityTargetTypes.h"
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "ICHUBlueprintFunctionLibrary.generated.h"
@@ -16,7 +13,7 @@
 UCLASS()
 class UICHUBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 {
-	GENERATED_BODY()
+	GENERATED_UCLASS_BODY()
 
 public:
     /** Show the native loading screen, such as on a map transfer. If bPlayUntilStopped is false, it will be displayed for PlayTime and automatically stop */

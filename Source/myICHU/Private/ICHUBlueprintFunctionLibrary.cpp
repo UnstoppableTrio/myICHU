@@ -2,27 +2,28 @@
 
 #include "ICHUBlueprintFunctionLibrary.h"
 #include "myICHU.h"
-#include "../../myICHULoadingScreen/Public/myICHULoadingScreen.h"
+//#include ".h"
+#include "/home/estebagel/Documents/Unreal Projects/myICHU/Source/myICHULoadingScreen/Public/myICHULoadingScreen.h"
 
 
-UICHUBlueprintLibrary::UICHUBlueprintLibrary(const FObjectInitializer& ObjectInitializer)
+UICHUBlueprintFunctionLibrary::UICHUBlueprintFunctionLibrary(const FObjectInitializer& ObjectInitializer)
         : Super(ObjectInitializer)
 {
 }
 
-void UICHUBlueprintLibrary::PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime)
+void UICHUBlueprintFunctionLibrary::PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime)
 {
     ImyICHULoadingScreenModule& LoadingScreenModule = ImyICHULoadingScreenModule::Get();
     LoadingScreenModule.StartInGameLoadingScreen(bPlayUntilStopped, PlayTime);
 }
 
-void UICHUBlueprintLibrary::StopLoadingScreen()
+void UICHUBlueprintFunctionLibrary::StopLoadingScreen()
 {
     ImyICHULoadingScreenModule& LoadingScreenModule = ImyICHULoadingScreenModule::Get();
     LoadingScreenModule.StopInGameLoadingScreen();
 }
 
-bool UICHUBlueprintLibrary::IsInEditor()
+bool UICHUBlueprintFunctionLibrary::IsInEditor()
 {
     return GIsEditor;
 }

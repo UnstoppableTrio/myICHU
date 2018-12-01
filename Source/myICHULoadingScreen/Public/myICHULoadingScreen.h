@@ -5,8 +5,8 @@
 
 #pragma once
 
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h"
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/Runtime/Core/Public/Modules/ModuleManager.h"
+#include "ModuleInterface.h"
+#include "Modules/ModuleManager.h"
 
 /** Module interface for this game's loading screens */
 class ImyICHULoadingScreenModule : public IModuleInterface

@@ -2,12 +2,11 @@
 // Created by estebagel on 11/28/18.
 //
 
-#include "../Public/myICHULoadingScreen.h"
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/Runtime/Slate/Public/SlateBasics.h"
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/Runtime/Slate/Public/SlateExtras.h"
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/Runtime/MoviePlayer/Public/MoviePlayer.h"
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/Runtime/Slate/Public/Widgets/Images/SThrobber.h"
-#include "../../../../../../UE_4.20-unstoppable/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h"
+#include <myICHULoadingScreen/Public/myICHULoadingScreen.h>
+#include "SlateBasics.h"
+#include "SlateExtras.h"
+#include "MoviePlayer.h"
+#include "SThrobber.h"
 
 // This module must be loaded "PreLoadingScreen" in the .uproject file, otherwise it will not hook in time!
 struct FICHULoadingScreenBrush : public FSlateDynamicImageBrush, public FGCObject
@@ -36,7 +35,7 @@ public:
     void Construct(const FArguments& InArgs)
     {
         // Load version of the logo with text baked in, path is hardcoded because this loads very early in startup
-        static const FName LoadingScreenName(TEXT("/Game/UI/T_myICHU_TransparentLogo.T_myICHU_TransparentLogo"));
+        static const FName LoadingScreenName(TEXT("/Game/Textures/UI/myICHUTitle.myICHUTitle"));
 
         LoadingScreenBrush = MakeShareable(new FICHULoadingScreenBrush(LoadingScreenName, FVector2D(1024, 256)));
 
@@ -95,7 +94,7 @@ public:
     virtual void StartupModule() override
     {
         // Force load for cooker reference
-        LoadObject<UObject>(nullptr, TEXT("/Game/UI/T_myICHU_TransparentLogo.T_myICHU_TransparentLogo") );
+        LoadObject<UObject>(nullptr, TEXT("/Game/Textures/UI/myICHUTitle.myICHUTitle") );
 
         if (IsMoviePlayerEnabled())
         {
