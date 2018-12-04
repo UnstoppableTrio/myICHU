@@ -22,15 +22,15 @@
 
 /* General event handling code for SDL */
 
-#include "SDL.h"
-#include "SDL_events.h"
-#include "SDL_thread.h"
+#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL.h"
+#include "ICHU_SDL_events.h"
+#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_thread.h"
 #include "SDL_events_c.h"
 #include "../timer/SDL_timer_c.h"
 #if !SDL_JOYSTICK_DISABLED
 #include "../joystick/SDL_joystick_c.h"
 #endif
-#include "../video/SDL_sysvideo.h"
+#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/src/video/SDL_sysvideo.h"
 #include "SDL_syswm.h"
 
 /*#define SDL_DEBUG_EVENTS 1*/
@@ -659,12 +659,12 @@ SDL_PumpEvents(void)
     }
 #endif
 
-#if !SDL_SENSOR_DISABLED
+//#if !SDL_SENSOR_DISABLED
     /* Check for sensor state change */
-    if (!SDL_disabled_events[SDL_SENSORUPDATE >> 8]) {
-        SDL_SensorUpdate();
-    }
-#endif
+  //  if (!SDL_disabled_events[SDL_SENSORUPDATE >> 8]) {
+  //      SDL_SensorUpdate();
+ //   }
+//#endif
 
     SDL_SendPendingQuit();  /* in case we had a signal handler fire, etc. */
 }

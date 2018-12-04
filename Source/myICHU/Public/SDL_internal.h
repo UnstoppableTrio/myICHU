@@ -54,6 +54,8 @@
 
 #include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_config.h"
 
+#undef SDL_EVENTS_DISABLED
+
 #endif /* SDL_internal_h_ */
 
 /* vi: set ts=4 sw=4 expandtab: */
