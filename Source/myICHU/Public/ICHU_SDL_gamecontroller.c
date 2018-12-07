@@ -25,7 +25,7 @@
 
 /* This is the game controller API for Simple DirectMedia Layer */
 
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_events.h"
+#include "ICHU_SDL_events.h"
 #include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_assert.h"
 #include "ICHU_SDL_hints.h"
 #include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_timer.h"
@@ -44,9 +44,9 @@
 #include "/home/estebagel/Documents/Unreal Projects/myICHU/Source/myICHU/Public/SDL_events_c.h"
 //#endif
 
-#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/src/events/SDL_events_c.h"
+#include "SDL_events_c.h"
 #include "../../../../../../UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_gamecontroller.h"
-#include "../../../../../../UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_events.h"
+#include "ICHU_SDL_events.h"
 #include "../../../../../../UE_4.20-unstoppable/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v11_clang-5.0.0-centos7/x86_64-unknown-linux-gnu/lib/clang/5.0.0/include/stddef.h"
 #include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_rwops.h"
 //#include "../../../../../../UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/src/joystick/SDL_gamecontrollerdb.h"

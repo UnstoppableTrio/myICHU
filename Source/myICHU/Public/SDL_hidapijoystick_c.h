@@ -30,8 +30,8 @@
 #ifndef SDL_JOYSTICK_HIDAPI_H
 #define SDL_JOYSTICK_HIDAPI_H
 
-#include "/home/estebagel/Downloads/SDL-5a95fbfd3617/include/SDL_stdinc.h"
-#include "/home/estebagel/Downloads/SDL-5a95fbfd3617/src/hidapi/hidapi/hidapi.h"
+#include "/home/estebagel/UE_4.20-unstoppable/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include/SDL_stdinc.h"
+#include "/home/estebagel/Documents/Unreal Projects/myICHU/Source/myICHU/Public/ICHU_hidapi.h"
 #include "/home/estebagel/Documents/Unreal Projects/myICHU/Source/myICHU/Public/SDL_joystick.h"
 
 /* This is the full set of HIDAPI drivers available */

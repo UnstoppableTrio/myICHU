@@ -32,10 +32,10 @@
 
 #undef SDL_EVENTS_DISABLED
 
-//#if !SDL_EVENTS_DISABLED
+#if !SDL_EVENTS_DISABLED
 #include "/home/estebagel/Documents/Unreal Projects/myICHU/Source/myICHU/Public/SDL_events_c.h"
-//#endif
-//#include "/home/estebagel/Downloads/SDL-5a95fbfd3617/src/video/SDL_sysvideo.h"
+#endif
+#include "SDL_sysvideo.h"
 
 /* This is included in only one place because it has a large static list of controllers */
 #include "/home/estebagel/Downloads/SDL-5a95fbfd3617/src/joystick/controller_type.h"
@@ -49,47 +49,6 @@
 #include <tlhelp32.h>
 #endif
 
-/**
- *  \brief General event structure
- */
-typedef union SDL_Event {
-    Uint32 type;                       /**< Event type, shared with all events */
-    SDL_CommonEvent common;            /**< Common event data */
-    SDL_DisplayEvent display;          /**< Window event data */
-    SDL_WindowEvent window;            /**< Window event data */
-    SDL_KeyboardEvent key;             /**< Keyboard event data */
-    SDL_TextEditingEvent edit;         /**< Text editing event data */
-    SDL_TextInputEvent text;           /**< Text input event data */
-    SDL_MouseMotionEvent motion;       /**< Mouse motion event data */
-    SDL_MouseButtonEvent button;       /**< Mouse button event data */
-    SDL_MouseWheelEvent wheel;         /**< Mouse wheel event data */
-    SDL_JoyAxisEvent jaxis;            /**< Joystick axis event data */
-    SDL_JoyBallEvent jball;            /**< Joystick ball event data */
-    SDL_JoyHatEvent jhat;              /**< Joystick hat event data */
-    SDL_JoyButtonEvent jbutton;        /**< Joystick button event data */
-    SDL_JoyDeviceEvent jdevice;        /**< Joystick device change event data */
-    SDL_ControllerAxisEvent caxis;     /**< Game Controller axis event data */
-    SDL_ControllerButtonEvent cbutton; /**< Game Controller button event data */
-    SDL_ControllerDeviceEvent cdevice; /**< Game Controller device event data */
-    SDL_AudioDeviceEvent adevice;      /**< Audio device event data */
-    SDL_SensorEvent sensor;            /**< Sensor event data */
-    SDL_QuitEvent quit;                /**< Quit request event data */
-    SDL_UserEvent user;                /**< Custom event data */
-    SDL_SysWMEvent syswm;              /**< System dependent window event data */
-    SDL_TouchFingerEvent tfinger;      /**< Touch finger event data */
-    SDL_MultiGestureEvent mgesture;    /**< Gesture event data */
-    SDL_DollarGestureEvent dgesture;   /**< Gesture event data */
-    SDL_DropEvent drop;                /**< Drag and drop event data */
-
-    /* This is necessary for ABI compatibility between Visual C++ and GCC
-       Visual C++ will respect the push pack pragma and use 52 bytes for
-       this structure, and GCC will use the alignment of the largest datatype
-       within the union, which is 8 bytes.
-
-       So... we'll add padding to force the size to be 56 bytes for both.
-    */
-    Uint8 padding[56];
-} SDL_Event;
 
 static SDL_JoystickDriver *SDL_joystick_drivers[] = {
 #if defined(SDL_JOYSTICK_DINPUT) || defined(SDL_JOYSTICK_XINPUT)
@@ -156,8 +115,8 @@ SDL_JoystickAllowBackgroundEventsChanged(void *userdata, const char *name, const
     }
 }
 
-//#ifdef SDL_JoystickInit
-//#define SDL_JoystickInit(void)
+#ifdef SDL_JoystickInit
+#define SDL_JoystickInit(void)
 int
 SDL_JoystickInit(void)
 {
@@ -188,7 +147,7 @@ SDL_JoystickInit(void)
     }
     return status;
 }
-//#endif
+#endif
 /*
  * Count the number of joysticks attached to the system
  */
@@ -816,45 +775,6 @@ void SDL_PrivateJoystickAdded(SDL_JoystickID device_instance)
 #endif /* !SDL_EVENTS_DISABLED */
 }
 
-typedef union SDL_Event {
-    Uint32 type;                       /**< Event type, shared with all events */
-    SDL_CommonEvent common;            /**< Common event data */
-    SDL_DisplayEvent display;          /**< Window event data */
-    SDL_WindowEvent window;            /**< Window event data */
-    SDL_KeyboardEvent key;             /**< Keyboard event data */
-    SDL_TextEditingEvent edit;         /**< Text editing event data */
-    SDL_TextInputEvent text;           /**< Text input event data */
-    SDL_MouseMotionEvent motion;       /**< Mouse motion event data */
-    SDL_MouseButtonEvent button;       /**< Mouse button event data */
-    SDL_MouseWheelEvent wheel;         /**< Mouse wheel event data */
-    SDL_JoyAxisEvent jaxis;            /**< Joystick axis event data */
-    SDL_JoyBallEvent jball;            /**< Joystick ball event data */
-    SDL_JoyHatEvent jhat;              /**< Joystick hat event data */
-    SDL_JoyButtonEvent jbutton;        /**< Joystick button event data */
-    SDL_JoyDeviceEvent jdevice;        /**< Joystick device change event data */
-    SDL_ControllerAxisEvent caxis;     /**< Game Controller axis event data */
-    SDL_ControllerButtonEvent cbutton; /**< Game Controller button event data */
-    SDL_ControllerDeviceEvent cdevice; /**< Game Controller device event data */
-    SDL_AudioDeviceEvent adevice;      /**< Audio device event data */
-    SDL_SensorEvent sensor;            /**< Sensor event data */
-    SDL_QuitEvent quit;                /**< Quit request event data */
-    SDL_UserEvent user;                /**< Custom event data */
-    SDL_SysWMEvent syswm;              /**< System dependent window event data */
-    SDL_TouchFingerEvent tfinger;      /**< Touch finger event data */
-    SDL_MultiGestureEvent mgesture;    /**< Gesture event data */
-    SDL_DollarGestureEvent dgesture;   /**< Gesture event data */
-    SDL_DropEvent drop;                /**< Drag and drop event data */
-
-    /* This is necessary for ABI compatibility between Visual C++ and GCC
-       Visual C++ will respect the push pack pragma and use 52 bytes for
-       this structure, and GCC will use the alignment of the largest datatype
-       within the union, which is 8 bytes.
-
-       So... we'll add padding to force the size to be 56 bytes for both.
-    */
-    Uint8 padding[56];
-} SDL_Event;
-
 /*
  * If there is an existing add event in the queue, it needs to be modified
  * to have the right value for which, because the number of controllers in
@@ -863,7 +783,7 @@ typedef union SDL_Event {
 static void UpdateEventsForDeviceRemoval()
 {
     int i, num_events;
-    SDL_Event *events;
+    SDL_Event *events = NULL;
     SDL_bool isstack;
 
     num_events = SDL_PeepEvents(NULL, 0, SDL_PEEKEVENT, SDL_JOYDEVICEADDED, SDL_JOYDEVICEADDED);
