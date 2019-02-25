@@ -3,7 +3,7 @@
 #include "ICHUBlueprintFunctionLibrary.h"
 #include "myICHU.h"
 //#include ".h"
-#include "/home/estebagel/Documents/Unreal Projects/myICHU/Source/myICHULoadingScreen/Public/myICHULoadingScreen.h"
+#include "Public/myICHULoadingScreen.h"
 
 
 UICHUBlueprintFunctionLibrary::UICHUBlueprintFunctionLibrary(const FObjectInitializer& ObjectInitializer)
