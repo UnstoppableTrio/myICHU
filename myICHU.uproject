@@ -1,31 +1,13 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{A686F8DC-4F29-1BA3-1EAC-49A6732B895C}",
+	"EngineAssociation": "{00034788-220B-0110-0032-02A919457335}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "myICHU",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		},
-		{
-			"Name": "myICHULoadingScreen",
-			"Type": "ClientOnly",
-			"LoadingPhase": "PreLoadingScreen"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "LeapMotion",
-			"Enabled": true
-		},
-		{
-			"Name": "RawInput",
-			"Enabled": true
+			"LoadingPhase": "Default"
 		}
 	]
 }
