@@ -1,31 +1,3 @@
-// Unstoppable Trio 2018
-
-
-
-#include "ICHUSaveGame.h"
-#include "myICHU.h"
-#include "ICHUInstance.h"
-
-void UICHUSaveGame::Serialize(FArchive& Ar)
-{
-    Super::Serialize(Ar);
-
-    if (Ar.IsLoading() && SavedDataVersion != EICHUSaveGameVersion::LatestVersion)
-    {
-        if (SavedDataVersion < EICHUSaveGameVersion::AddedItemData)
-        /*{
-            // Convert from list to item data map
-            for (const FPrimaryAssetId& ItemId : InventoryItems_DEPRECATED)
-            {
-                InventoryData.Add(ItemId, FICHUItemData(1, 1));
-            }
-
-            InventoryItems_DEPRECATED.Empty();
-        }*/
-
-        SavedDataVersion = EICHUSaveGameVersion::LatestVersion;
-    }
-}
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f088acb65e911760998b34fc890390b999db2038e71d562806095f5e9d5740ed
+size 728

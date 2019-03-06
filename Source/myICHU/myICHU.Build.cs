@@ -1,23 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-using UnrealBuildTool;
-
-public class myICHU : ModuleRules
-{
-	public myICHU(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
-
-		PrivateDependencyModuleNames.AddRange(new string[] { "myICHULoadingScreen" });
-
-		// Uncomment if you are using Slate UI
-		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-		
-		// Uncomment if you are using online features
-		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
-
-		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f04f774abc4a5e96d890cae3d4b85418a86ff11146a54dc89fccdbb050aaabd4
+size 831

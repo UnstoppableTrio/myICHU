@@ -1,31 +1,3 @@
-// Copyright 2018 Unstoppable Trio
-
-using UnrealBuildTool;
-
-// This module must be loaded "PreLoadingScreen" in the .uproject file, otherwise it will not hook in time!
-
-public class myICHULoadingScreen : ModuleRules
-{
-	public myICHULoadingScreen(ReadOnlyTargetRules Target)
-		: base(Target)
-	{
-		PrivateIncludePaths.Add("myICHULoadingScreen/Private");
-
-		PublicDependencyModuleNames.AddRange(
-			new string[] {
-				"Core",
-				"CoreUObject",
-				"Engine"
-			}
-		);
-
-		PrivateDependencyModuleNames.AddRange(
-			new string[] {
-				"MoviePlayer",
-				"Slate",
-				"SlateCore",
-				"InputCore"
-			}
-		);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:270241991f7d1ea1d831e31375115514d2f05aa8aec105cd7f0307a7e5d3fbdb
+size 605

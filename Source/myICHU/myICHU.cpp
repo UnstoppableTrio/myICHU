@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#include "myICHU.h"
-#include "Modules/ModuleManager.h"
-
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, myICHU, "myICHU" );
+version https://git-lfs.github.com/spec/v1
+oid sha256:a759406074a89c5824a67e2bce4a07aeb5a9a89298e893836c877f8ff8ef1edb
+size 217

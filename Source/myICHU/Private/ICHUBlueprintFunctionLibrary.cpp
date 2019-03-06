@@ -1,32 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#include "ICHUBlueprintFunctionLibrary.h"
-#include "myICHU.h"
-//#include ".h"
-#include "Public/myICHULoadingScreen.h"
-
-
-UICHUBlueprintFunctionLibrary::UICHUBlueprintFunctionLibrary(const FObjectInitializer& ObjectInitializer)
-        : Super(ObjectInitializer)
-{
-}
-
-void UICHUBlueprintFunctionLibrary::PlayLoadingScreen(bool bPlayUntilStopped, float PlayTime)
-{
-    ImyICHULoadingScreenModule& LoadingScreenModule = ImyICHULoadingScreenModule::Get();
-    LoadingScreenModule.StartInGameLoadingScreen(bPlayUntilStopped, PlayTime);
-}
-
-void UICHUBlueprintFunctionLibrary::StopLoadingScreen()
-{
-    ImyICHULoadingScreenModule& LoadingScreenModule = ImyICHULoadingScreenModule::Get();
-    LoadingScreenModule.StopInGameLoadingScreen();
-}
-
-bool UICHUBlueprintFunctionLibrary::IsInEditor()
-{
-    return GIsEditor;
-}
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7514ff3ef76668b7a05faa87437949a7e813ae3de84dec0e1888e6f5c5cfc87d
+size 892

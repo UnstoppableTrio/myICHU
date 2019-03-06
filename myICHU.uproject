@@ -1,13 +1,3 @@
-{
-	"FileVersion": 3,
-	"EngineAssociation": "{A686F8DC-4F29-1BA3-1EAC-49A6732B895C}",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "myICHU",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:787d931455526b54e5d95bf9aeab33db955851c46cc57a09fa48903249de27d6
+size 220

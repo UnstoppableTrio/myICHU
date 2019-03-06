@@ -1,31 +1,3 @@
-// Unstoppable Trio 2018
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "GameFramework/Character.h"
-#include "ICHUCharacter.generated.h"
-
-UCLASS()
-class MYICHU_API AICHUCharacter : public ACharacter
-{
-	GENERATED_BODY()
-
-public:
-	// Sets default values for this character's properties
-	AICHUCharacter();
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	
-	
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:55674dc2a3cbecf6359d45ac8680494855e5cb17f97a0f3784318f00c8fdccfc
+size 657
